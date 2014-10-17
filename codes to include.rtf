@@ -1,0 +1,137 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs24 \cf0 Definition: conch shell is out of reach:\
+	if player is inside bubble, yes;\
+	if player is not inside bubble, no.\
+\
+\
+\
+\
+Rack of Keys is a supporter in the Hallway. The description is "A simple key rack, really. It's a bunch of wooden pegs[if keyshell is on rack of keys] with a key hanging off one of them[end if]."\
+\
+\
+\
+\
+\
+The prisoner behavior rules is a rulebook.\
+\
+A prisoner behavior rule when the prisoner is wearing shackles:\
+	if a random chance of 1 in 3 succeeds: \
+		say "She frowns a bit and plucks at the dingy cloth covering her personal bits. You can tell she cares much about her appearances."; \
+\
+A prisoner behavior rule when the prisoner is wearing uniform: \
+	if a random chance of 1 in 3 succeeds: \
+		say "She adjusts the collar around the uniform, a small grin adorning her face as she admires the shiny buckles. She looks pleased with her new outfit. She lifts her chin, trying to look more official. She makes a mean face at you for a moment, then laughs and waves her hand dismissively."; \
+\
+\
+\
+\
+A prisoner behavior rule when the location of prisoner is not the location of player:\
+	move prisoner to player;\
+		if a random chance of 1 in 5 succeeds,\
+			say "[nickname of prisoner] glubs quietly at you.";\
+\
+\
+\
+\
+Instead of attacking Scientist: \
+	say "You grab both ends of the scarf and attempt to choke the scientist. He glubs loudly, reaching out to press the emergency switch, alerting the guards of your presence!"; \
+	end the game saying "Violence is not the answer"\
+\
+\
+\
+\
+Instead of talking to scientist for the first time:\
+	if player is wearing chatterscarf:\
+		say "Hello!";\
+	otherwise:\
+		say "He turns to look at you. \'85blub!";\
+\
+\
+\
+\
+\
+\
+Setting action variables for combining something with something: \
+	let X be a list of objects; \
+	add the noun to X; \
+	add the second noun to X; \
+	sort X; \
+	repeat through the Table of Outcome Objects: \
+		let Y be the component list entry; \
+		sort Y; \
+		if X is Y: \
+			now the item built is the result entry.\
+\
+Check combining it with: \
+    if the item built is nothing, \
+        say "You can't combine [the noun] and [the second noun] into anything useful." instead.\
+Carry out combining it with: \
+    move the item built to the holder of the noun; \
+    remove the noun from play; \
+    remove the second noun from play.\
+Report combining it with: \
+    say "You now have [an item built]."\
+\
+Table of outcome objects\
+component list		result\
+\{dirty clothes, jug\}		clean clothes\
+\{the piece of wood, magnifying glass\}		fire\
+\
+\
+\
+The water is an enterable supporter. "The water is some what clear and oyu can see tons of fish swimming around."\
+Instead of entering the water:\
+	say "You enter the water slowly and carefully making sure you don't step on anything dangerous."\
+\
+\
+\
+Mood is a kind of value. The moods are unhappy and pleased. People have mood. The mood of Melvin is unhappy.\
+Melvin is a man in the North Forest. Melvin carries a magnifying glass.  The description of Melvin is "An scragly, old man with glasses. It looks like he is wearing old, dirty, ripped up clothing. Melvin looks [the mood of Melvin]".\
+\
+\
+Instead of giving the journal to Melvin:\
+	move the journal to Melvin;\
+	now Melvin is pleased;\
+	say "Melvin looks very pleased.".\
+Instead of asking Melvin for the magnifying glass:\
+	if Melvin is unhappy:\
+		say "Melvin refuses to give you the magnifying glass (or help you in general) unless you do something for him.";\
+	if Melvin is pleased:\
+		say "Now you have the magnifying glass.";\
+		move the magnifying glass to player.\
+\
+\
+\
+if inform doesnt understand a verb:\
+\
+understand the command "offer" as something new.\
+offering it to is an action applying to two things.\
+understand "offer [something] to [someone]" as offering it to.\
+\
+\
+\
+\
+Named page is a kind of value. The named pages are first page, last page, next page, previous page.\
+To decide what number is the effective value of (L - last page): \
+    decide on the length of the book.\
+To decide what number is the effective value of (F - first page): \
+    decide on 1.\
+To decide what number is the effective value of (N - next page): \
+    let X be the last page read of the book plus 1; \
+    decide on X.\
+To decide what number is the effective value of (P - previous page): \
+    let X be the last page read of the book minus 1; \
+    decide on X.\
+\
+Understand "read [named page] in/from/of [something]" or "read the [named page] in/from/of [something]" as reading it relatively in. Reading it relatively in is an action applying to one named page and one thing.\
+\
+Does the player mean reading something in the old book: it is very likely.\
+\
+\
+\
+Your bed is an enterable supporter in your room. It is fixed in place. The description is "A nice, comfortable bed to relax in after a day full of knight training."}
