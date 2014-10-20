@@ -1,11 +1,640 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x738d7d0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x345200" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x738d7d0" />
-  <item nodeId="node-0x738d7d0">
+  <activeNode nodeId="node-0xc42fcc0" />
+  <item nodeId="node-0x345200">
     <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+Your good friend Luigi has invited you to go camping with him over the weekend to Axe Creek, an abondoned camp site infamous for its reports of mysterious casualties and missing persons. Being a timid and not-so adventurous person, it took lots of convincing before you agreed to go. You decided that this could be your chance to prove to yourself that you&apos;re not a big baby. You can survive a single weekend, right?
+
+Ouija Boredom
+An Interactive Fiction by Lee-Won Fulbright
+Release 1 / Serial number 141020 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Campsite
+The campsite is surrounded with greenery. You notice an uneven patch of dirt in the ground. 
+
+ Your pitched tent is south.
+
+Luigi is lounging around the campsite. He seems to be preoccupied with reading a strange book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">NO</temporary>
+    <children>
+      <child nodeId="node-0xb168660" />
+      <child nodeId="node-0xc925880" />
+      <child nodeId="node-0xc907070" />
+      <child nodeId="node-0x7babb0" />
+      <child nodeId="node-0xc872160" />
+      <child nodeId="node-0x7998b0" />
+      <child nodeId="node-0x7e3490" />
+      <child nodeId="node-0xc4a2950" />
+      <child nodeId="node-0xc99aae0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc99aae0">
+    <command xml:space="preserve">ask luigi about caged</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0xb18f140" />
+      <child nodeId="node-0xc9856c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9856c0">
+    <command xml:space="preserve">ask about caged</command>
+    <result xml:space="preserve">From somewhere inside the piano, you hear a loud whirring noise and the lights in the house begin to come on. Now that your surroundings are finally visible, you can see the piano splattered red, and standing behind you, is Ms. Light.
+
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="0">NO</temporary>
+    <temporary score="34">YES</temporary>
+  </item>
+  <item nodeId="node-0xb18f140">
+    <command xml:space="preserve">talk to luigi about caged</command>
+    <result xml:space="preserve">You play a nice tune. Nothing else happens, though.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xc876b40" />
+    </children>
+  </item>
+  <item nodeId="node-0xc876b40">
+    <command xml:space="preserve">ask to luigi about</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+  </item>
+  <item nodeId="node-0xc4a2950">
+    <command xml:space="preserve">take book</command>
+    <result xml:space="preserve">That seems to belong to Luigi.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
+    <children>
+      <child nodeId="node-0xc97f090" />
+    </children>
+  </item>
+  <item nodeId="node-0xc97f090">
+    <command xml:space="preserve">ask luigi</command>
+    <result xml:space="preserve">(for Luigi)
+(Luigi first taking Luigi)
+Luigi has better things to do.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
+    <children>
+      <child nodeId="node-0xc86b6b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc86b6b0">
+    <command xml:space="preserve">ask luigi about cdefgabc</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
+    <children>
+      <child nodeId="node-0xb1452f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb1452f0">
+    <command xml:space="preserve">ask luigi about caged</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
+    <children>
+      <child nodeId="node-0xc492a00" />
+    </children>
+  </item>
+  <item nodeId="node-0xc492a00">
+    <command xml:space="preserve">caged</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9c5cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9c5cc0">
+    <command xml:space="preserve">&quot;caged&quot;</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
+    <children>
+      <child nodeId="node-0xc995040" />
+    </children>
+  </item>
+  <item nodeId="node-0xc995040">
+    <command xml:space="preserve">talk to luigi about caged</command>
+    <result xml:space="preserve">You play a nice tune. Nothing else happens, though.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="29">YES</temporary>
+  </item>
+  <item nodeId="node-0x7e3490">
+    <command xml:space="preserve">x luiji</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0xb14cd30" />
+    </children>
+  </item>
+  <item nodeId="node-0xb14cd30">
+    <command xml:space="preserve">x luigi</command>
+    <result xml:space="preserve">yo
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+  </item>
+  <item nodeId="node-0x7998b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Forest Clearing
+Here there is a lack of trees, giving a view of the stars. In the center of the clearing, there is an oddly symmetrical pond. Now that you look around, you realize that the trees on the perimeter of the clearing seem to mirror each other. 
+
+ You can see two paths on either side of the clearing. West is Western Field, and East is Eastern Field. You can see a cabin up ahead. North is to the cabin&apos;s front door. The path South leads to the Campsite.
+
+The perfect-circle pond is serene, and so clear that you can see the bottom. There seems to be nothing alive in the pond.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x79f710" />
+      <child nodeId="node-0xb6c6db0" />
+      <child nodeId="node-0x1b5a10" />
+      <child nodeId="node-0x1354a380" />
+    </children>
+  </item>
+  <item nodeId="node-0x1354a380">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Campsite
+The campsite is surrounded with greenery. You notice an uneven patch of dirt in the ground. 
+
+ Your pitched tent is south.
+
+Luigi is lounging around the campsite. He seems to be preoccupied with reading a strange book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x1253a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1253a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Tent
+Your backpack sits in the corner. The sleeping bags are unrolled on the ground.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0xfed3d00" />
+    </children>
+  </item>
+  <item nodeId="node-0xfed3d00">
+    <command xml:space="preserve">open backpack</command>
+    <result xml:space="preserve">You open Backpack, revealing Canteen.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0xfeda190" />
+    </children>
+  </item>
+  <item nodeId="node-0xfeda190">
+    <command xml:space="preserve">take canteen</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0xc0efa00" />
+    </children>
+  </item>
+  <item nodeId="node-0xc0efa00">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Campsite
+The campsite is surrounded with greenery. You notice an uneven patch of dirt in the ground. 
+
+ Your pitched tent is south.
+
+Luigi is lounging around the campsite. He seems to be preoccupied with reading a strange book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0xfece7f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xfece7f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Forest Clearing
+Here there is a lack of trees, giving a view of the stars. In the center of the clearing, there is an oddly symmetrical pond. Now that you look around, you realize that the trees on the perimeter of the clearing seem to mirror each other. 
+
+ You can see two paths on either side of the clearing. West is Western Field, and East is Eastern Field. You can see a cabin up ahead. North is to the cabin&apos;s front door. The path South leads to the Campsite.
+
+The perfect-circle pond is serene, and so clear that you can see the bottom. There seems to be nothing alive in the pond.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0xc4c35e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc4c35e0">
+    <command xml:space="preserve">fill canteen</command>
+    <result xml:space="preserve">(with Canteen)
+You have to be in water to fill it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0xc805e90" />
+    </children>
+  </item>
+  <item nodeId="node-0xc805e90">
+    <command xml:space="preserve">enter pond</command>
+    <result xml:space="preserve">You get onto Pond.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0xb15db30" />
+    </children>
+  </item>
+  <item nodeId="node-0xb15db30">
+    <command xml:space="preserve">fill canteen</command>
+    <result xml:space="preserve">(with Canteen)
+You filled the canteen with the pond water.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0xfee7d10" />
+    </children>
+  </item>
+  <item nodeId="node-0xfee7d10">
+    <command xml:space="preserve">x canteen</command>
+    <result xml:space="preserve">Gotta stay hydrated, yo.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0xc0d6cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc0d6cc0">
+    <command xml:space="preserve">empty canteen</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x135ef440" />
+    </children>
+  </item>
+  <item nodeId="node-0x135ef440">
+    <command xml:space="preserve">drink canteen</command>
+    <result xml:space="preserve">There&apos;s nothing suitable to drink here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0xc42fcc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc42fcc0">
+    <command xml:space="preserve">drink water</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b5a10">
+    <command xml:space="preserve">enter pond</command>
+    <result xml:space="preserve">You get onto Pond.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="45">YES</temporary>
+    <children>
+      <child nodeId="node-0x1359cb20" />
+    </children>
+  </item>
+  <item nodeId="node-0x1359cb20">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first getting off Pond)
+You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="44">YES</temporary>
+  </item>
+  <item nodeId="node-0xb6c6db0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the cabin door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="17">YES</temporary>
+  </item>
+  <item nodeId="node-0x79f710">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Western Field
+There is an interesting formation of trees on the far end of the field.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0xb66b8d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb66b8d0">
+    <command xml:space="preserve">x trees</command>
+    <result xml:space="preserve">You count five identical trees, all growing in a straight row. On one end of the row of trees, there is a tree stump.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x74de650" />
+    </children>
+  </item>
+  <item nodeId="node-0x74de650">
+    <command xml:space="preserve">x tree stump</command>
+    <result xml:space="preserve">A tree stump.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+  </item>
+  <item nodeId="node-0xc872160">
+    <command xml:space="preserve">ask</command>
+    <result xml:space="preserve">(Luigi for Luigi)
+(Luigi first taking Luigi)
+Luigi has better things to do.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9e75e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9e75e0">
+    <command xml:space="preserve">ask about poo</command>
+    <result xml:space="preserve">You can ask Luigi about &quot;Ouija Boards&quot;, &quot;Patch of Dirt&quot;,  &quot;Cabin&quot;.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+    <children>
+      <child nodeId="node-0xc05c140" />
+    </children>
+  </item>
+  <item nodeId="node-0xc05c140">
+    <command xml:space="preserve">ask about cabin</command>
+    <result xml:space="preserve">You can ask Luigi about &quot;Ouija Boards&quot;, &quot;Patch of Dirt&quot;,  &quot;Cabin&quot;.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+  </item>
+  <item nodeId="node-0x7babb0">
+    <command xml:space="preserve">talk to luigi</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x206750" />
+    </children>
+  </item>
+  <item nodeId="node-0x206750">
+    <command xml:space="preserve">kick luigi</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x1902f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1902f0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Campsite
+The campsite is surrounded with tall trees. Your pitched tent is south.
+
+Luigi is lounging around the campsite.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x74a0340" />
+    </children>
+  </item>
+  <item nodeId="node-0x74a0340">
+    <command xml:space="preserve">listen</command>
+    <result xml:space="preserve">You hear nothing unexpected.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+  </item>
+  <item nodeId="node-0xc907070">
+    <command xml:space="preserve">ask about book</command>
+    <result xml:space="preserve">You play a nice scale. Nothing else happens, though.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="42">YES</temporary>
+    <children>
+      <child nodeId="node-0x1356bfa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1356bfa0">
+    <command xml:space="preserve">ask about poop</command>
+    <result xml:space="preserve">Luigi will only answer certain questions. You can ask Luigi about &quot;Ouija Boards&quot;, &quot;Patch of Dirt&quot;,  &quot;book&quot;, &quot;tent&quot;, &quot;campsite&quot;, &quot;himself&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="42">YES</temporary>
+    <children>
+      <child nodeId="node-0xc4f7d50" />
+    </children>
+  </item>
+  <item nodeId="node-0xc4f7d50">
+    <command xml:space="preserve">ask about yourself</command>
+    <result xml:space="preserve">I can&apos;t believe you had the guts to come camping out here!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+  </item>
+  <item nodeId="node-0xc925880">
+    <command xml:space="preserve">ask about poo</command>
+    <result xml:space="preserve">Luigi will only answer certain questions. You can ask Luigi about &quot;Ouija Boards&quot;, &quot;Patch of Dirt&quot;, 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+  </item>
+  <item nodeId="node-0xb168660">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Tent
+Your backpack sits in the corner. The sleeping bags are unrolled on the ground.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0xc067cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc067cb0">
+    <command xml:space="preserve">open backpack</command>
+    <result xml:space="preserve">You open Backpack, revealing Canteen.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0xfea8f90" />
+    </children>
+  </item>
+  <item nodeId="node-0xfea8f90">
+    <command xml:space="preserve">look in backpack</command>
+    <result xml:space="preserve">In Backpack is Canteen.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0x13597670" />
+    </children>
+  </item>
+  <item nodeId="node-0x13597670">
+    <command xml:space="preserve">x canteen</command>
+    <result xml:space="preserve">Canteen is empty.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0xb6d42f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb6d42f0">
+    <command xml:space="preserve">take canteen</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0x708190" />
+    </children>
+  </item>
+  <item nodeId="node-0x708190">
+    <command xml:space="preserve">take backpack</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
   </item>
 </Skein>
