@@ -275,7 +275,7 @@
             }
         }
         function showAllResp() {
-            for (var i=0;i<352;i++) {
+            for (var i=0;i<371;i++) {
                 showResp('extra'+(1000000+i), 'plus'+(1000000+i));
             }
         }
@@ -637,9 +637,12 @@
     A single action in detail.<br><i>About the action rulebooks&nbsp;&nbsp;<a href=inform:/doc178.html><img border=0 src=inform:/doc_images/help.png></a></i></p>
     </td>
     </tr></table>
-    <hr>Filling&nbsp;<a href="source:story.ni#line32"><img border=0 src=inform:/doc_images/Reveal.tif></a>&nbsp;<a href=77_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, Reading it relatively in&nbsp;<a href="source:story.ni#line83"><img border=0 src=inform:/doc_images/Reveal.tif></a>&nbsp;<a href=78_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, <b>asking</b>&nbsp;<a href="source:story.ni#line104"><img border=0 src=inform:/doc_images/Reveal.tif></a>&nbsp;<a href=79_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><p><hr><p><b>asking <font color="#000080">some text</font> </b>&nbsp;<a href="source:story.ni#line104"><img border=0 src=inform:/doc_images/Reveal.tif></a><a name=A79_asking></a> (<i>past tense</i> asked)<br>
+    <hr>Filling&nbsp;<a href="source:story.ni#line86"><img border=0 src=inform:/doc_images/Reveal.tif></a>&nbsp;<a href=77_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, Reading&nbsp;<a href="source:story.ni#line142"><img border=0 src=inform:/doc_images/Reveal.tif></a>&nbsp;<a href=78_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, <b>Reading it in</b>&nbsp;<a href="source:story.ni#line143"><img border=0 src=inform:/doc_images/Reveal.tif></a>&nbsp;<a href=79_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, Reading it relatively in&nbsp;<a href="source:story.ni#line155"><img border=0 src=inform:/doc_images/Reveal.tif></a>&nbsp;<a href=80_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, Talking to&nbsp;<a href="source:story.ni#line204"><img border=0 src=inform:/doc_images/Reveal.tif></a>&nbsp;<a href=81_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><p><hr><p><b>Reading <font color="#000080">number</font> in <font color="#000080">something</font> </b>&nbsp;<a href="source:story.ni#line143"><img border=0 src=inform:/doc_images/Reveal.tif></a><a name=A79_reading_it_in></a> (<i>past tense</i> read it in)<br>
     <p><hr><p><b>Typed commands leading to this action</b><p>
-    <p class="hangingin2">&quot;ask about [text]&quot;&nbsp;<a href="source:story.ni#line104"><img border=0 src=inform:/doc_images/Reveal.tif></a></p><p><b>Rules controlling this action</b></p><p>
-    <p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>asking a topic listed in the Table of NPC Responses</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line109"><img border=0 src=inform:/doc_images/Reveal.tif></a></p>
-    <br><p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;(say "Luigi will only answer certain questions. You can ask Luigi about 'Ouija Boards', 'Patch of Dirt', [if cabin is visited] 'Cabin', [end if] 'book', 'tent', 'campsite', 'himself'")&nbsp;<a href="source:story.ni#line106"><img border=0 src=inform:/doc_images/Reveal.tif></a></p>
+    <p class="hangingin2">&quot;read [number] in/from/of [something]&quot;&nbsp;<a href="source:story.ni#line143"><img border=0 src=inform:/doc_images/Reveal.tif></a></p><p class="hangingin2">&quot;read page [number] in/from/of [something]&quot;&nbsp;<a href="source:story.ni#line143"><img border=0 src=inform:/doc_images/Reveal.tif></a></p><p class="hangingin2">&quot;look/l up page [number] in/from/of [something]&quot;&nbsp;<a href="source:story.ni#line143"><img border=0 src=inform:/doc_images/Reveal.tif></a></p><p class="hangingin2">&quot;consult page [number] in/from/of [something]&quot;&nbsp;<a href="source:story.ni#line143"><img border=0 src=inform:/doc_images/Reveal.tif></a></p><p><b>Rules controlling this action</b></p><p>
+    <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;(if the second noun is not the ouija book, say "There are no pages in [the second noun]." instead; ...)&nbsp;<a href="source:story.ni#line166"><img border=0 src=inform:/doc_images/Reveal.tif></a></p>
+    <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;(if the number understood is greater than the length of the ouija book, say "There are only [length of ouija book in words] pages in the book." instead; ...)&nbsp;<a href="source:story.ni#line169"><img border=0 src=inform:/doc_images/Reveal.tif></a></p>
+    <br><p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;(read page number understood)&nbsp;<a href="source:story.ni#line172"><img border=0 src=inform:/doc_images/Reveal.tif></a></p>
     <br>
+    <!--CONTENT ENDS-->
+    </font></body></html>
