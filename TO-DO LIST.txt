@@ -14,8 +14,13 @@ finish with book pages
 
 make spirit's dialogue
 
-how to change defaults
-
 how to make read me automatically show up on canvas
 
 
+luigi will try to suggest a way to destroy the board: but it will be a wrong suggestion. player must remember what book said about how to actually destroy the board. If player listens to book, player wins. if player listens to luigi, you die. 
+(luigi will suggest to axe the board, but you’re supposed to burn it.)
+
+
+****Instead of talking to mayor when mayor is in mayor’s house: say
+
+figure out how to enter pond without describing the forest clearing
