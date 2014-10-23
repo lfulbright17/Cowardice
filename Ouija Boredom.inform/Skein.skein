@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x2a1070" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xcd77340" />
+  <activeNode nodeId="node-0x16fb3220" />
   <item nodeId="node-0x2a1070">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -14,16 +14,14 @@ An Interactive Fiction by Lee-Won Fulbright
 Release 1 / Serial number 141022 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Campsite
-The campsite is surrounded with greenery. You notice an uneven patch of dirt in the ground. 
+The campsite is surrounded with greenery. In the center of the campsite a roaring camfire blazes. Luigi is lounging around the campsite. He seems to be carrying an old, wooden board of some sort. 
 
- Your pitched tent is south.
-
-Luigi is lounging around the campsite. He seems to be preoccupied with reading a strange book.
+ Your pitched tent is south. North is the Forest Clearing.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="79">NO</temporary>
+    <temporary score="935">NO</temporary>
     <children>
       <child nodeId="node-0x6848d90" />
       <child nodeId="node-0x6848c40" />
@@ -43,7 +41,7 @@ Your backpack sits in the corner. The sleeping bags are unrolled on the ground.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="79">YES</temporary>
+    <temporary score="231">YES</temporary>
     <children>
       <child nodeId="node-0x6845b40" />
       <child nodeId="node-0x2a1110" />
@@ -572,7 +570,7 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="79">YES</temporary>
+    <temporary score="231">YES</temporary>
     <children>
       <child nodeId="node-0x68460f0" />
       <child nodeId="node-0x6845bb0" />
@@ -585,7 +583,7 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="79">YES</temporary>
+    <temporary score="231">YES</temporary>
     <children>
       <child nodeId="node-0x6845f30" />
       <child nodeId="node-0x6845c20" />
@@ -771,7 +769,7 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="79">YES</temporary>
+    <temporary score="231">YES</temporary>
     <children>
       <child nodeId="node-0x6845fa0" />
     </children>
@@ -789,7 +787,7 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="79">YES</temporary>
+    <temporary score="231">YES</temporary>
     <children>
       <child nodeId="node-0x2f9f30" />
     </children>
@@ -806,7 +804,7 @@ Here there is a lack of trees, giving a view of the stars. In the center of the 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="79">YES</temporary>
+    <temporary score="231">YES</temporary>
     <children>
       <child nodeId="node-0x2e7830" />
     </children>
@@ -819,7 +817,7 @@ You filled the canteen with the pond water.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="79">YES</temporary>
+    <temporary score="231">YES</temporary>
     <children>
       <child nodeId="node-0x6811070" />
     </children>
@@ -838,7 +836,7 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="79">YES</temporary>
+    <temporary score="231">YES</temporary>
     <children>
       <child nodeId="node-0xcdd9200" />
     </children>
@@ -853,7 +851,7 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="79">YES</temporary>
+    <temporary score="231">YES</temporary>
     <children>
       <child nodeId="node-0x2f5dd0" />
     </children>
@@ -866,7 +864,7 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="79">YES</temporary>
+    <temporary score="231">YES</temporary>
     <children>
       <child nodeId="node-0x1d97a0" />
     </children>
@@ -878,7 +876,7 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="79">YES</temporary>
+    <temporary score="231">YES</temporary>
     <children>
       <child nodeId="node-0xcd42910" />
     </children>
@@ -890,7 +888,7 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="79">YES</temporary>
+    <temporary score="231">YES</temporary>
     <children>
       <child nodeId="node-0xcd21ff0" />
     </children>
@@ -902,7 +900,7 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="79">YES</temporary>
+    <temporary score="231">YES</temporary>
     <children>
       <child nodeId="node-0xb7f0880" />
     </children>
@@ -920,19 +918,133 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="79">YES</temporary>
+    <temporary score="231">YES</temporary>
     <children>
       <child nodeId="node-0xcd77340" />
     </children>
   </item>
   <item nodeId="node-0xcd77340">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can&apos;t go that way.
+    <result xml:space="preserve">
+Cabin
+You enter the abandoned cabin. North of Cabin is Attic. East of Cabin is Bedroom. South is Forest Clearing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="231">YES</temporary>
+    <children>
+      <child nodeId="node-0xf725d10" />
+    </children>
+  </item>
+  <item nodeId="node-0xf725d10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening attic door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="231">YES</temporary>
+    <children>
+      <child nodeId="node-0xb723fc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb723fc0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Forest Clearing
+Here there is a lack of trees, giving a view of the stars. In the center of the clearing, there is an oddly symmetrical pond. Now that you look around, you realize that the trees on the perimeter of the clearing seem to mirror each other. 
+
+ You can see two paths on either side of the clearing. West is Western Field, and East is Eastern Field. You can see a cabin up ahead. North is to the cabin&apos;s front door. The path South leads to the Campsite.
+
+The perfect-circle pond is serene, and so clear that you can see the bottom. There seems to be nothing alive in the pond.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="231">YES</temporary>
+    <children>
+      <child nodeId="node-0xb7ec1d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb7ec1d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Campsite
+The campsite is surrounded with greenery. You notice an uneven patch of dirt in the ground. 
+
+ Your pitched tent is south.
+
+Luigi is lounging around the campsite. He seems to be preoccupied with reading a strange book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="231">YES</temporary>
+    <children>
+      <child nodeId="node-0x2ecea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2ecea0">
+    <command xml:space="preserve">talk to luigi</command>
+    <result xml:space="preserve">Luigi: Yo! Feel free to ask me about stuff. 
+
+ You can ask Luigi about Tent, Campsite, Himself, Yourself, etc.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="78">YES</temporary>
+    <temporary score="231">YES</temporary>
+    <children>
+      <child nodeId="node-0x11035f20" />
+    </children>
+  </item>
+  <item nodeId="node-0x11035f20">
+    <command xml:space="preserve">ask luigi about ouija boards</command>
+    <result xml:space="preserve">Luigi: See if you can find a way to open it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="231">YES</temporary>
+    <children>
+      <child nodeId="node-0x11072140" />
+    </children>
+  </item>
+  <item nodeId="node-0x11072140">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:
+  ouija board
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="231">YES</temporary>
+    <children>
+      <child nodeId="node-0x21c280" />
+    </children>
+  </item>
+  <item nodeId="node-0x21c280">
+    <command xml:space="preserve">ask luigi about ouija boards</command>
+    <result xml:space="preserve">Luigi: See if you can find a way to open it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="231">YES</temporary>
+    <children>
+      <child nodeId="node-0x110b1ec0" />
+    </children>
+  </item>
+  <item nodeId="node-0x110b1ec0">
+    <command xml:space="preserve">give water to luigi</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="230">YES</temporary>
   </item>
   <item nodeId="node-0x68460f0">
     <command xml:space="preserve">look in backpack</command>
@@ -998,7 +1110,7 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="226">YES</temporary>
+    <temporary score="935">YES</temporary>
     <children>
       <child nodeId="node-0x68473c0" />
       <child nodeId="node-0x6847350" />
@@ -1492,13 +1604,700 @@ You filled the canteen with the pond water.
   </item>
   <item nodeId="node-0x6847350">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening the cabin door)
-It seems to be locked.
+    <result xml:space="preserve">
+Cabin
+You enter the abandoned cabin. North of Cabin is Attic. East of Cabin is Bedroom. South is Forest Clearing.
+
+You can see ouija book here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="93">YES</temporary>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7531c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7531c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Forest Clearing
+Here there is a lack of trees, giving a view of the stars. In the center of the clearing, there is an oddly symmetrical pond. Now that you look around, you realize that the trees on the perimeter of the clearing seem to mirror each other. 
+
+ You can see two paths on either side of the clearing. West is Western Field, and East is Eastern Field. You can see a cabin up ahead. North is to the cabin&apos;s front door. The path South leads to the Campsite.
+
+The perfect-circle pond is serene, and so clear that you can see the bottom. There seems to be nothing alive in the pond.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x1d88d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1d88d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Campsite
+The campsite is surrounded with greenery. In the center of the campsite a roaring camfire blazes. Luigi is lounging around the campsite. He seems to be carrying an old, wooden board of some sort. 
+
+ Your pitched tent is south. North is the Forest Clearing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x110d54c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x110d54c0">
+    <command xml:space="preserve">ask luigi about cabin</command>
+    <result xml:space="preserve">Luigi: Some creepy old cabin. I wonder who used to live there.  
+
+ You can ask Luigi about Tent, Campsite, Himself, Yourself, etc.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x1108bcd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1108bcd0">
+    <command xml:space="preserve">ask luigi about murders</command>
+    <result xml:space="preserve">Luigi: Most of the stories weren&apos;t disclosed to the public, but I heard they were all  axe murders.  Haha, sorry, I know you get freaked out pretty easily. Don&apos;t worry, though, all the murders happened a really long time ago. The killer&apos;s long dead by now, though some people say that his spirit haunts this creek to this day. That&apos;s why this place is called Axe Creek.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xf44c740" />
+    </children>
+  </item>
+  <item nodeId="node-0xf44c740">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Forest Clearing
+Here there is a lack of trees, giving a view of the stars. In the center of the clearing, there is an oddly symmetrical pond. Now that you look around, you realize that the trees on the perimeter of the clearing seem to mirror each other. 
+
+ You can see two paths on either side of the clearing. West is Western Field, and East is Eastern Field. You can see a cabin up ahead. North is to the cabin&apos;s front door. The path South leads to the Campsite.
+
+The perfect-circle pond is serene, and so clear that you can see the bottom. There seems to be nothing alive in the pond.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xf79b9a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf79b9a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Cabin
+You enter the abandoned cabin. North of Cabin is Attic. East of Cabin is Bedroom. South is Forest Clearing.
+
+You can see ouija book here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7c1cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7c1cc0">
+    <command xml:space="preserve">x ouija book</command>
+    <result xml:space="preserve">An odd, worn book. The cover reads:  Beware of Ouija.  There seem to be four pages in the Ouija Book, though many of the words are smudged and indecipherable. Start by reading page 1 of Ouija Book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xf4a6870" />
+    </children>
+  </item>
+  <item nodeId="node-0xf4a6870">
+    <command xml:space="preserve">read ouija book</command>
+    <result xml:space="preserve">You need to pick up the book first.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xf4c72c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf4c72c0">
+    <command xml:space="preserve">read book</command>
+    <result xml:space="preserve">You need to pick up the book first.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xf458410" />
+    </children>
+  </item>
+  <item nodeId="node-0xf458410">
+    <command xml:space="preserve">read</command>
+    <result xml:space="preserve">(ouija book)
+You need to pick up the book first.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xf4e4cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf4e4cd0">
+    <command xml:space="preserve">read page one</command>
+    <result xml:space="preserve">(in ouija book)
+You&apos;re not reading anything.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xf494880" />
+    </children>
+  </item>
+  <item nodeId="node-0xf494880">
+    <command xml:space="preserve">read page 1 of ouija book</command>
+    <result xml:space="preserve">You&apos;re not reading anything.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xf47c670" />
+    </children>
+  </item>
+  <item nodeId="node-0xf47c670">
+    <command xml:space="preserve">take ouija book</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xf43ff80" />
+    </children>
+  </item>
+  <item nodeId="node-0xf43ff80">
+    <command xml:space="preserve">read ouija book</command>
+    <result xml:space="preserve">An odd, worn book. The cover reads:  Beware of Ouija.  There seem to be four pages in the Ouija Book, though many of the words are smudged and indecipherable. Start by reading page 1 of Ouija Book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xf45edd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf45edd0">
+    <command xml:space="preserve">drop ouija book</command>
+    <result xml:space="preserve">Dropped.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x110654c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x110654c0">
+    <command xml:space="preserve">read ouija book</command>
+    <result xml:space="preserve">You need to pick up the book first.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xf4d2210" />
+    </children>
+  </item>
+  <item nodeId="node-0xf4d2210">
+    <command xml:space="preserve">pick up ouija book</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xf4f05a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf4f05a0">
+    <command xml:space="preserve">read ouija book</command>
+    <result xml:space="preserve">An odd, worn book. The cover reads:  Beware of Ouija.  There seem to be four pages in the Ouija Book, though many of the words are smudged and indecipherable. Start by reading page 1 of Ouija Book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xf457a10" />
+    </children>
+  </item>
+  <item nodeId="node-0xf457a10">
+    <command xml:space="preserve">read page 1 of ouija book</command>
+    <result xml:space="preserve">You read: &quot; Entry One. xx/xx/xxxx.  I am writing this diary to record my investigations of the axe murder house, located in this very forest in xxxxxxx. I am the famous paranormal invesitgator, xxxx xxxxxxxx. I have come here with the intentions of contacting the spirit of the axe murderer, xxxxxxxx xxx, who died in these woods xx years ago. Reasons behind these murders as well as facts on the killer are unknown. To uncover these mysteries, I plan to contact the spirit of the murderer himself using my ouija board. Also known as the Witch Board, the Ouija Board is an ancient tool used to form a connection with the departed, first used by the Chinese in 1100 AD. Tomorrow night, here in the cabin, I will attempt to tmake spiritual contact through the board.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xf42a020" />
+    </children>
+  </item>
+  <item nodeId="node-0xf42a020">
+    <command xml:space="preserve">read ouija book</command>
+    <result xml:space="preserve">An odd, worn book. The cover reads:  Beware of Ouija.  There seem to be four pages in the Ouija Book, though many of the words are smudged and indecipherable. Start by reading page 1 of Ouija Book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xf4c4f20" />
+    </children>
+  </item>
+  <item nodeId="node-0xf4c4f20">
+    <command xml:space="preserve">read book</command>
+    <result xml:space="preserve">An odd, worn book. The cover reads:  Beware of Ouija.  There seem to be four pages in the Ouija Book, though many of the words are smudged and indecipherable. Start by reading page 1 of Ouija Book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x301b50" />
+    </children>
+  </item>
+  <item nodeId="node-0x301b50">
+    <command xml:space="preserve">turn page </command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xf472990" />
+    </children>
+  </item>
+  <item nodeId="node-0xf472990">
+    <command xml:space="preserve">turn page of ouija book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x11006d20" />
+    </children>
+  </item>
+  <item nodeId="node-0x11006d20">
+    <command xml:space="preserve">read next page of ouija book</command>
+    <result xml:space="preserve">You read: &quot; Entry Two. xx/xx/xxxx.  Night has fallen, and I am ready to open the board and begin communication with xxxxxxxx xxx. I am quite proud of my special Ouija board. It is unique in that you must knock three times on the board to open it. This insures that not just anyone can have easy access to the board, as using a ouija board is quite dangerous. After opening the board, I will place my hands on the planchette and ready myself both mentally and physically to encounter xxxxxxxx xxx&apos;s malevolent spirit. Anyone who&apos;s used a ouija board before knows that if the planchette moves to each of the four corners of the board, you have contacted an evil spirit. So, that&apos;s what I&apos;m keeping an eye out for while I&apos;m searching for the axe murderer&apos;s spirit.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x2e3da0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2e3da0">
+    <command xml:space="preserve">read ouija book</command>
+    <result xml:space="preserve">An odd, worn book. The cover reads:  Beware of Ouija.  There seem to be four pages in the Ouija Book, though many of the words are smudged and indecipherable. Start by reading page 1 of Ouija Book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xf738a00" />
+    </children>
+  </item>
+  <item nodeId="node-0xf738a00">
+    <command xml:space="preserve">read page 1 of ouija book</command>
+    <result xml:space="preserve">You read: &quot; Entry One. xx/xx/xxxx.  I am writing this diary to record my investigations of the axe murder house, located in this very forest in xxxxxxx. I am the famous paranormal invesitgator, xxxx xxxxxxxx. I have come here with the intentions of contacting the spirit of the axe murderer, xxxxxxxx xxx, who died in these woods xx years ago. Reasons behind these murders as well as facts on the killer are unknown. To uncover these mysteries, I plan to contact the spirit of the murderer himself using my ouija board. Also known as the Witch Board, the Ouija Board is an ancient tool used to form a connection with the departed, first used by the Chinese in 1100 AD. Tomorrow night, here in the cabin, I will attempt to tmake spiritual contact through the board.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f983a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f983a0">
+    <command xml:space="preserve">read next page of ouija booj</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f2ec00" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f2ec00">
+    <command xml:space="preserve">read next page of ouija book</command>
+    <result xml:space="preserve">You read: &quot; Entry Two. xx/xx/xxxx.  Night has fallen, and I am ready to open the board and begin communication with xxxxxxxx xxx. I am quite proud of my special Ouija board. It is unique in that you must knock three times on the board to open it. This insures that not just anyone can have easy access to the board, as using a ouija board is quite dangerous. After opening the board, I will place my hands on the planchette and ready myself both mentally and physically to encounter xxxxxxxx xxx&apos;s malevolent spirit. Anyone who&apos;s used a ouija board before knows that if the planchette moves to each of the four corners of the board, you have contacted an evil spirit. So, that&apos;s what I&apos;m keeping an eye out for while I&apos;m searching for the axe murderer&apos;s spirit.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x14a5aaa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14a5aaa0">
+    <command xml:space="preserve">read next page of ouija book</command>
+    <result xml:space="preserve">You read: &quot; Entry Three. xx/xx/xxxx.  I did it-- I reached the spirit of xxxxxxxx xxx. His spirit is unlike any I have come into contact with. It responds much faster, and with much greater intelligence than those of most entities. It is powerful, that much is apparent. I must remain wary of xxxxxxxx xxx&apos;s malicious intent; false flattery and lies are only to be expected from the likes of it. If anything begins to go wrong, I will simply exit the conversation by moving the planchette to the part of the board &quot;GOOD BYE&quot;, which should sever the connection between the spirit and myself. My goal is to inquire about the final resting place of xxxxxxxx xxx, and to burn the remains. Hopefully by doing this the spirit will be put to rest.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x147b1b80" />
+    </children>
+  </item>
+  <item nodeId="node-0x147b1b80">
+    <command xml:space="preserve">read next page of ouija book</command>
+    <result xml:space="preserve">You read: &quot; Final Entry. xx/xx/xxxx.  N o ! This cannot be happening! I have lost control of the planchette, and am unable to exit through the normal means of &quot;GOODBYE&quot;. I was a fool. I was naïve. The spirit was too cunning. I am frant cally writing t is to anyo e who fi s my d ary or my ouija b ard. D o not t ust the spir t!  And wha ever yo u do, do not burn t e  o ija boa d!!!!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f75440" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f75440">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:
+  ouija book
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xb71ebf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb71ebf0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Forest Clearing
+Here there is a lack of trees, giving a view of the stars. In the center of the clearing, there is an oddly symmetrical pond. Now that you look around, you realize that the trees on the perimeter of the clearing seem to mirror each other. 
+
+ You can see two paths on either side of the clearing. West is Western Field, and East is Eastern Field. You can see a cabin up ahead. North is to the cabin&apos;s front door. The path South leads to the Campsite.
+
+The perfect-circle pond is serene, and so clear that you can see the bottom. There seems to be nothing alive in the pond.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xcdb7b90" />
+    </children>
+  </item>
+  <item nodeId="node-0xcdb7b90">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Campsite
+The campsite is surrounded with greenery. In the center of the campsite a roaring camfire blazes. Luigi is lounging around the campsite. He seems to be carrying an old, wooden board of some sort. 
+
+ Your pitched tent is south. North is the Forest Clearing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x147b4d70" />
+    </children>
+  </item>
+  <item nodeId="node-0x147b4d70">
+    <command xml:space="preserve">take ouija board</command>
+    <result xml:space="preserve">That seems to belong to Luigi.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xcdf4df0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcdf4df0">
+    <command xml:space="preserve">ask luigi for ouija board</command>
+    <result xml:space="preserve">Luigi has better things to do.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x16fb4350" />
+    </children>
+  </item>
+  <item nodeId="node-0x16fb4350">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Tent
+Your backpack sits in the corner. The sleeping bags are unrolled on the ground.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f95820" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f95820">
+    <command xml:space="preserve">open backpack</command>
+    <result xml:space="preserve">You open Backpack, revealing Canteen.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7f8640" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7f8640">
+    <command xml:space="preserve">take canteen</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f911c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f911c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Campsite
+The campsite is surrounded with greenery. In the center of the campsite a roaring camfire blazes. Luigi is lounging around the campsite. He seems to be carrying an old, wooden board of some sort. 
+
+ Your pitched tent is south. North is the Forest Clearing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x147b8060" />
+    </children>
+  </item>
+  <item nodeId="node-0x147b8060">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Forest Clearing
+Here there is a lack of trees, giving a view of the stars. In the center of the clearing, there is an oddly symmetrical pond. Now that you look around, you realize that the trees on the perimeter of the clearing seem to mirror each other. 
+
+ You can see two paths on either side of the clearing. West is Western Field, and East is Eastern Field. You can see a cabin up ahead. North is to the cabin&apos;s front door. The path South leads to the Campsite.
+
+The perfect-circle pond is serene, and so clear that you can see the bottom. There seems to be nothing alive in the pond.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xcd17f10" />
+    </children>
+  </item>
+  <item nodeId="node-0xcd17f10">
+    <command xml:space="preserve">enter pong</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x1478a050" />
+    </children>
+  </item>
+  <item nodeId="node-0x1478a050">
+    <command xml:space="preserve">fill canteen</command>
+    <result xml:space="preserve">What do you want to fill Canteen with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f35960" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f35960">
+    <command xml:space="preserve">fill canteen with water</command>
+    <result xml:space="preserve">You have to be in water to fill it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x14777780" />
+    </children>
+  </item>
+  <item nodeId="node-0x14777780">
+    <command xml:space="preserve">enter pond</command>
+    <result xml:space="preserve">You step into the pond.
+
+Forest Clearing (on Pond)
+Here there is a lack of trees, giving a view of the stars. In the center of the clearing, there is an oddly symmetrical pond. Now that you look around, you realize that the trees on the perimeter of the clearing seem to mirror each other. 
+
+ You can see two paths on either side of the clearing. West is Western Field, and East is Eastern Field. You can see a cabin up ahead. North is to the cabin&apos;s front door. The path South leads to the Campsite.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xf4e82c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf4e82c0">
+    <command xml:space="preserve">fill canteen</command>
+    <result xml:space="preserve">What do you want to fill Canteen with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xcd28bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcd28bb0">
+    <command xml:space="preserve">fill canteen with water</command>
+    <result xml:space="preserve">You filled the canteen with the pond water.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xcd10ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcd10ad0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first getting off Pond)
+
+Campsite
+The campsite is surrounded with greenery. In the center of the campsite a roaring camfire blazes. Luigi is lounging around the campsite. He seems to be carrying an old, wooden board of some sort. 
+
+ Your pitched tent is south. North is the Forest Clearing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x147c93b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x147c93b0">
+    <command xml:space="preserve">give canteen to luigi</command>
+    <result xml:space="preserve">Luigi: Yo, thanks! Here&apos;s the board, as promised. I forgot to mention that I don&apos;t know how to open the board. It&apos;s like it&apos;s magically shut!  No matter what I do, I can&apos;t seem to get it open. Maybe you have some idea of how to do it?
+
+
+ You are now carrying the Ouija Board.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f66e00" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f66e00">
+    <command xml:space="preserve">open ouija board</command>
+    <result xml:space="preserve">It isn&apos;t something you can open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0xf48f9c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf48f9c0">
+    <command xml:space="preserve">knock on ouija board</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x16fe6a70" />
+    </children>
+  </item>
+  <item nodeId="node-0x16fe6a70">
+    <command xml:space="preserve">knock 3 times on ouijaboard</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="935">YES</temporary>
+    <children>
+      <child nodeId="node-0x16fb3220" />
+    </children>
+  </item>
+  <item nodeId="node-0x16fb3220">
+    <command xml:space="preserve">knock on ouija board 3 times</command>
+    <result xml:space="preserve">You feel a presence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="934">YES</temporary>
   </item>
   <item nodeId="node-0x68473c0">
     <command xml:space="preserve">enter pond</command>
@@ -2284,18 +3083,6 @@ Luigi has better things to do.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="38">YES</temporary>
-    <children>
-      <child nodeId="node-0x6848bd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6848bd0">
-    <command xml:space="preserve">ask about cabin</command>
-    <result xml:space="preserve">You can ask Luigi about &quot;Ouija Boards&quot;, &quot;Patch of Dirt&quot;,  &quot;Cabin&quot;.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="37">YES</temporary>
   </item>
   <item nodeId="node-0x6848c40">
     <command xml:space="preserve">ask about book</command>

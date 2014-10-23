@@ -15,7 +15,7 @@ Player is in Campsite. Description of player is "You are a timid and fainthearte
 
 Tent is a room. "Your backpack sits in the corner. The sleeping bags are unrolled on the ground." Tent is south of Campsite. 
 
-Campsite is a room. "The campsite is surrounded with greenery. You notice an uneven patch of dirt in the ground. [paragraph break] Your pitched tent is south." Campsite is north of tent.
+Campsite is a room. "The campsite is surrounded with greenery. In the center of the campsite a roaring camfire blazes. Luigi is lounging around the campsite. He seems to be carrying an old, wooden board of some sort. [paragraph break] Your pitched tent is south. North is the Forest Clearing." Campsite is north of tent.
 
 Forest Clearing is a room. "Here there is a lack of trees, giving a view of the stars. In the center of the clearing, there is an oddly symmetrical pond. Now that you look around, you realize that the trees on the perimeter of the clearing seem to mirror each other. [paragraph break] You can see two paths on either side of the clearing. West is Western Field, and East is Eastern Field. You can see a cabin up ahead. North is to the cabin's front door. The path South leads to the Campsite." There are Forest Clearing is north of campsite. West of Forest Clearing is Western Field. East of Forest Clearing is Eastern Field.  
 
@@ -35,7 +35,7 @@ Bedroom is a room. Bedroom is east of cabin. Description is "Besides a bed and a
 
 [NPCs]
 
-Luigi is a man in campsite. "Luigi is lounging around the campsite. He seems to be preoccupied with reading a strange book." Luigi is carrying ouija board. Description is "It's a your good friend, Luigi."
+Luigi is a man in campsite. Description of Luigi is "Luigi is lounging around the campsite. He seems to be preoccupied with reading a strange book." Luigi is carrying ouija board. Luigi is undescribed.
 
 
 
@@ -95,13 +95,53 @@ Understand "drawer" as dresser.
 
 Instead of opening dresser: say "You open the drawer to reveal a shiny, sharp knife."
 
-	
 Instead of taking water: say "You need something to transport it with."
 
 Instead of entering pond: say "You step into the pond.";
-	move player to pond.
+	move player to pond. [need to figure out how to move to pond w/o describing the forest clearing]
 	
-		
+Instead of reading ouija book:
+	If player is not carrying ouija book:
+		say "You need to pick up the book first.";
+	Otherwise: 
+		say "An odd, worn book. The cover reads: [italic type] Beware of Ouija. [roman type] There seem to be four pages in the Ouija Book, though many of the words are smudged and indecipherable. Start by reading page 1 of Ouija Book."
+
+Understand "knock on ouija board 3 times" as commencing. commencing is an action applying to one topic. 
+
+An every turn rule:
+	If commencing: 
+		say "The ouija board opens with a click, and you immediately feel a presence."
+
+
+
+
+
+
+
+
+Understand "knock on Ouija Board [text]" and "knock [text] on Ouija Board" as knocking on. Knocking on is an action applying to one topic. 
+	
+Carry out knocking on:
+	say "Nothing seems to happen."
+
+Instead of knocking on a topic listed in the Table of Songs, say "[song entry][line break]".
+
+Table of Songs
+Topic	Song
+"3 times"	"The Ouija Board opens with a click."
+"Three times"	"The Ouija Board opens with a click."
+"2 times"	"Who's there?"
+"Two times"	"Who's there?"
+"One time"	"You knock on the ouija board. Nothing appears to happen."
+"once"	"You knock on the ouija board. Nothing appears to happen."
+
+
+
+
+
+
+
+
 
 
 [CODE SOURCE FROM JIM AIKIN'S INFORM HANDBOOK]
@@ -129,11 +169,9 @@ wooden key, then opening the door)[paragraph break]";
 
 
 
-
-
 [CODE SOURCE FROM INFORM RECIPE BOOK]
 
-ouija book is a thing. ouija book is in cabin. Description is "An odd, worn book. The cover reads: Beware of Ouija Boards. There seem to be five pages in the book, though many of the words are smudged and indecipherable."
+ouija book is a thing. ouija book is in cabin. Description is "An odd, worn book. The cover reads: [italic type] Beware of Ouija. [roman type] There seem to be four pages in the Ouija Book, though many of the words are smudged and indecipherable. Start by reading page 1 of Ouija Book."
 
 The Ouija book has a number called the last page read. The ouija book has a number called the length. The length of the ouija book is 4.
 Understand the command "read" as something new.
@@ -179,10 +217,10 @@ Carry out reading:
 
 Table of Book Contents 
 page	content
-1	"[bold type] History of Ouija Boards. [roman type] Also known as the Witch Board, the Ouija Board is an ancient tool used to form a connection with the departed, first used by the Chinese in 1100 AD. Though controversial, the Ouija Board has gained esteem through its reportings of encounters with spirits, both benign and malicious entities alike."
-2	"[bold type] Instructions. [roman type] 1. When using a Ouija Board, NEVER play alone. When unaccompanied, participants are often more vulnerable to malicious intent. Those who are faint of heart should not attempt. [paragraph break] 2.  Open Ouija board carefully, taking note of the Planchette. The Planchette is fixed to the board, and will spell the words of the spirit you contact (if any). [paragraph break] 3. First state your own name, ('My name is ____'). Then, request the name of the entity ('What is your name?')."
-3	"[bold type] Contacting an Evil Entity. [roman type]"
-4	"[bold type] 'GOOD BYE' [roman type]"
+1	"[bold type] Entry One. xx/xx/xxxx. [roman type] I am writing this diary to record my investigations of the axe murder house, located in this very forest in xxxxxxx. I am the famous paranormal invesitgator, xxxx xxxxxxxx. I have come here with the intentions of contacting the spirit of the axe murderer, xxxxxxxx xxx, who died in these woods xx years ago. Reasons behind these murders as well as facts on the killer are unknown. To uncover these mysteries, I plan to contact the spirit of the murderer himself using my ouija board. Also known as the Witch Board, the Ouija Board is an ancient tool used to form a connection with the departed, first used by the Chinese in 1100 AD. Tomorrow night, here in the cabin, I will attempt to tmake spiritual contact through the board."
+2	"[bold type] Entry Two. xx/xx/xxxx. [roman type] Night has fallen, and I am ready to open the board and begin communication with xxxxxxxx xxx. I am quite proud of my special Ouija board. It is unique in that you must knock three times on the board to open it. This insures that not just anyone can have easy access to the board, as using a ouija board is quite dangerous. After opening the board, I will place my hands on the planchette and ready myself both mentally and physically to encounter xxxxxxxx xxx's malevolent spirit. Anyone who's used a ouija board before knows that if the planchette moves to each of the four corners of the board, you have contacted an evil spirit. So, that's what I'm keeping an eye out for while I'm searching for the axe murderer's spirit."
+3	"[bold type] Entry Three. xx/xx/xxxx. [roman type] I did it-- I reached the spirit of xxxxxxxx xxx. His spirit is unlike any I have come into contact with. It responds much faster, and with much greater intelligence than those of most entities. It is powerful, that much is apparent. I must remain wary of xxxxxxxx xxx's malicious intent; false flattery and lies are only to be expected from the likes of it. If anything begins to go wrong, I will simply exit the conversation by moving the planchette to the part of the board 'GOOD BYE', which should sever the connection between the spirit and myself. My goal is to inquire about the final resting place of xxxxxxxx xxx, and to burn the remains. Hopefully by doing this the spirit will be put to rest."
+4	"[bold type] Final Entry. xx/xx/xxxx. [roman type] N o ! This cannot be happening! I have lost control of the planchette, and am unable to exit through the normal means of 'GOODBYE'. I was a fool. I was naïve. The spirit was too cunning. I am frant cally writing t is to anyo e who fi s my d ary or my ouija b ard. D o not t ust the spir t! [bold type] And wha ever yo u do, do not burn t e  o ija boa d!!!!"
 
 To read page (N - a number): 
 	now the last page read of the ouija book is N;
@@ -201,24 +239,46 @@ To read page (N - a number):
 
 Talking to is an action applying to one visible thing. Understand "talk to [someone]" or “converse with [someone]” as talking to.
 
-Check talking to: say "Luigi: Yo! Feel free to ask me about stuff. [paragraph break] You can ask Luigi about Tent, Himself, Yourself, Ouija Boards, etc."
+Check talking to: say "Luigi: Yo! Feel free to ask me about stuff. [paragraph break] You can ask Luigi about Tent, Campsite, Board, Himself, Yourself, etc."
 
-Instead of asking Luigi about "Ouija Boards": say "Luigi: They're so cool! This one that I've got here's an old family heriloom. Maybe I'll let you take a look at it if you get me something to drink."
-
-Instead of asking Luigi about "Cabin": say "Luigi: Some creepy old cabin. I wonder who used to live there. Bet you're too chicken to investigate."
+Instead of asking Luigi about "Ouija Boards":
+	If player is not carrying ouija board: 
+		say "Luigi: They're so cool! I found this one buried in the dirt while I was nailing the tent into the ground. I guess I was meant to find it! Hm, maybe I'll let you take a look at it if you get me something to drink.";
+	otherwise: 
+		say "Luigi: See if you can find a way to open it."
+		
+Instead of asking Luigi about "Board": say "Luigi: It's a ouija board! [paragraph break] You can ask Luigi about Tent, Campsite, Himself, Yourself, etc. "
+	
+Instead of asking Luigi about "Cabin": say "Luigi: Some creepy old cabin. I wonder who used to live there. [If cabin is unvisited] Bet you're too chicken to investigate. [end if] [paragraph break] You can ask Luigi about Tent, Campsite, Himself, Yourself, etc."
 
 Instead of asking Luigi about "Tent": say "Luigi: There's some stuff in the tent that we brought. Some tools and survival essentials."
 
-Instead of asking Luigi about "Campsite": say "Luigi: They say this whole area is haunted. I heard there were even series of murders commited in that cabin up north."
+Instead of asking Luigi about "Campsite": say "Luigi: They say this whole area is haunted. I heard there were even series of murders commited in that cabin up north. [paragraph break] You can ask Luigi about Murders, Tent, Board, Himself, Cabin, Yourself, etc."
+
+Instead of asking Luigi about "tools": say "Luigi: I forgot to pack a lot of stuff. Go see for yourself!"
+
+Instead of asking Luigi about "survival essentials": say "Luigi: I forgot to pack a lot of stuff, but I remembered the necessitites. Go see for yourself!"
 
 Instead of asking Luigi about "Himself": say "Luigi: I love camping! All this fun is making me a bit thirsty, though."
 
-Instead of asking Luigi about "Yourself": say "Luigi: I can't believe you had the guts to come camping out here! You're definitely not the bravest person I've ever seen."
+Instead of asking Luigi about "Murders": say "Luigi: Most of the stories weren't disclosed to the public, but I heard they were all [italic type] axe murders. [roman type] Haha, sorry, I know you get freaked out pretty easily. Don't worry, though, all the murders happened a really long time ago. The killer's long dead by now, though some people say that his spirit haunts this creek to this day. That's why this place is called Axe Creek."
 
-Instead of giving canteen to Luigi: say "Luigi: Yo thanks! Here's the board, as promised. I forgot to mention that I don't know how to open the board. It's like it's magically shut! I've even tried prying it open with this axe, but I can't get it to open. Maybe you have some idea on how to do it?";
+Instead of asking Luigi about "Yourself": say "Luigi: I can't believe you had the guts to come camping out here! You're definitely not the bravest person I've ever met."
+
+Instead of giving canteen to Luigi: say "Luigi: Yo, thanks! Here's the board, as promised. I forgot to mention that I don't know how to open the board. It's like it's magically shut!  No matter what I do, I can't seem to get it open. Maybe you have some idea of how to do it?";
 	move ouija board to player;
 	move canteen to luigi;
-	say "[paragraph break] You are now carrying the Ouija Bard."
+	say "[paragraph break] You are now carrying the Ouija Board."
+
+Instead of giving water to Luigi:
+	if player is carrying canteen:
+		say "Luigi: Yo, thanks! Here's the board, as promised. I forgot to mention that I don't know how to open the board. It's like it's magically shut! No matter what I do, I can't seem to get it open. Maybe you have some idea of how to do it?";
+		move ouija board to player;
+		move canteen to luigi;
+		say "[paragraph break] You are now carrying the Ouija Bard.";
+	otherwise:
+		say "You have nothing to give to Luigi."
+
 
 
 
