@@ -15,7 +15,7 @@ Player is in Campsite. Description of player is "You are a timid and fainthearte
 
 Tent is a room. "Your backpack sits in the corner. The sleeping bags are unrolled on the ground." Tent is south of Campsite. 
 
-Campsite is a room. "The campsite is surrounded with greenery. In the center of the campsite a roaring camfire blazes. Luigi is lounging around the campsite. He seems to be carrying an old, wooden board of some sort. [paragraph break] Your pitched tent is south. North is the Forest Clearing." Campsite is north of tent.
+Campsite is a room. "The campsite is surrounded with greenery. In the center of the campsite a roaring camfire blazes. Luigi is lounging around the campsite. He seems to be carrying an old, wooden board of some sort. [paragraph break] Your pitched tent is South. North is the Forest Clearing." Campsite is north of tent.
 
 Forest Clearing is a room. "Here there is a lack of trees, giving a view of the stars. In the center of the clearing, there is an oddly symmetrical pond. Now that you look around, you realize that the trees on the perimeter of the clearing seem to mirror each other. [paragraph break] You can see two paths on either side of the clearing. West is Western Field, and East is Eastern Field. You can see a cabin up ahead. North is to the cabin's front door. The path South leads to the Campsite." There are Forest Clearing is north of campsite. West of Forest Clearing is Western Field. East of Forest Clearing is Eastern Field.  
 
@@ -23,11 +23,13 @@ Western field is a room. "There is an interesting formation of trees on the far 
 
 Eastern Field is a room. "There is an interesting formation of trees on the far end of the field." Eastern Field is east of Forest Clearing.
 
-Cabin is a room. Description is "You enter the abandoned cabin. North of Cabin is Attic. East of Cabin is Bedroom. South is Forest Clearing." Cabin is north of Forest Clearing.
+Cabin is a room. Description is "[if unvisited] You enter the abandoned cabin. [end if] The room has peeling walls and a rotten wooden floor. Both seem to be splattered with a dark stain. There is no furniture in the room. [paragraph break] North of this room is [if attic is unvisited] a door that must lead to [end if]the Attic. East of here is [if bedroom is unvisited] an open door leading to what looks like a bedroom. [end if] the Bedroom. South is Forest Clearing." Cabin is north of Forest Clearing.
 
-Attic is a room. The attic is north of attic door. "The Attic is dust covered and moldy. In the center of the room, on the floor, lies a paper doll." 
+Attic is a room. The attic is north of attic door. "The Attic is dust covered and moldy. In the center of the room, on the floor, is a skeleton." 
 
 Bedroom is a room. Bedroom is east of cabin. Description is "Besides a bed and a dresser, the room is barren. Like the first room in the cabin, it is covered in dust. West is Cabin."
+
+
 
 
 
@@ -39,6 +41,45 @@ Luigi is a man in campsite. Description of Luigi is "Luigi is lounging around th
 
 
 
+Board is a person. Board is undescribed. 
+Every turn rule:
+	If ouija board is open:
+		move Board to location of the player. 
+
+		
+Instead of asking Board about "the spirit": say "You place your hands on the planchette, and immediately after asking the question, the planchette smoothly moves across the alphabet, spelling 'i am here'. [paragraph break] You can ask the board about the murderer, the paranormal investigator, or the remains."
+
+Instead of asking Board about "the spirit": say "You place your hands on the planchette, and immediately after asking the question, the planchette smoothly moves across the alphabet, spelling 'i am here'.[paragraph break] You can ask the board about the murderer, the paranormal investigator, or the remains."
+
+Instead of asking Board about "The Murderer": say "the planchette spells the words 'i am'. [paragraph break] You can ask the board about the paranormal investigator or the remains."
+
+Instead of asking Board about "Murderer": say "the planchette spells the words 'i am'. [paragraph break] You can ask the board about the paranormal investigator or the remains."
+
+Instead of asking Board about "the paranormal investigator": say "This time, almost excitedly, the planchette spells 'i killed him'. Then, 'axed'. [paragraph break]You can ask the board about the remains."
+
+Instead of asking Board about "paranormal investigator": say "This time, almost excitedly, the planchette spells 'i killed him'. Then, 'axed'. [paragraph break]You can ask the board about the remains."
+
+Instead of asking Board about "the remains": say "The planchette does not move for a while. Then, it slowly spells 'make a mirror image'. [Paragraph break]Luigi: What does it mean, make a mirror image? What is it asking us to do?"
+
+Instead of asking Board about "remains": say "The planchette does not move for a while. Then, it slowly spells 'make a mirror image'. [Paragraph break]Luigi: What does it mean, make a mirror image? What is it asking us to do?"
+
+Instead of asking Board about "mirror image": say "The planchette remains still. [Paragraph break]Luigi: Try asking about a hint?"
+
+Instead of asking Board about "the mirror image": say "The planchette remains still. [Paragraph break]Luigi: Try asking about a hint?"
+
+Instead of asking Board about "hint": say "The planchette spells out 'Axes make mirrors. Life and death are mirrors. Young and old, rich and poor. [italic type] East and West are mirrors as well. [Paragraph break] Luigi: Something about east and west???"
+
+
+
+[code from Nicole's game, how to get the NPC to gollow you."
+
+
+Entity is a person. Entity is undescribed.
+Every turn rule: 
+	if player is cool:
+		if Entity is not visible: 
+			move Entity to the location of the player; 
+			say "You feel the Entity follow you here through the Ouija Board."]
 
 
 
@@ -57,27 +98,43 @@ Bed is an enterable supporter in bedroom. It is fixed in place. Description is "
 
 Dresser is an openable container in bedroom. It is fixed in place. It is undescribed. Description is "Even when covered with a thick coat of dust, you can see the outline of a single drawer."
 
-Knife is a thing in dresser. It is undescribed. Description is "A large knife. It could easily slice through most things."
+axe is a thing in dresser. It is undescribed. Description is "A gigantic axe. It looks like it was used very often, as the blade is a bit rusted and chipped. However, the axe seems to have retained its menacing look."
 
-Paper doll is a thing in attic. Description is "A small paper doll. Oddly, it is not covered in dust and is in perfect condition." It is undescribed. 
+Skeleton is a thing in attic. Description is "The skeleton that looks like it could have belonged to a large man. It is impossible to tell the cause of death. On the clothes of the skeleton, there is a name card." It is undescribed. 
+
+Name card is a thing in attic. Description is "You read, 'xxxx xxxxxxxx, Paranormal Investigator." It is undescribed.
 
 Wooden Key is a thing. It is in Eastern Field. It is undescribed. Description is "A wooden key that came from the tree stump." 
 
-Trees is scenery in western field. "You count five identical trees, all growing in a straight row. On one end of the row of trees, there is a tree stump."
+Western Birch trees is scenery in western field. Description is "You see five identical birch trees (name: Western Birch Trees), all growing in a straight row. On one end of the row of trees, there is a tree stump."
 
-[Trees is also scenery in eastern field. "You count five identical trees, all growing in a straight row. On one end of the row of trees, there is a tree stump."]
+Eastern Birch Trees is scenery in eastern field. Description is "You see five identical birch trees (name: Eastern Birch Trees), all growing in a straight row. On one end of the row of trees, there is an oak tree [if Western field is visited] where, in the Western Field, there is a stump [end if]."
 
-Tree stump is scenery in western field. "A tree stump." Understand "stump" as tree stump. 
+Tree stump is scenery in western field. Understand "stump" as tree stump. Description of tree stump is "It looks like it was cut clean with an axe. From looking at the wood, you assume the stump used to be an oak tree."
+
+Oak tree is a thing in Eastern Field. It is undescribed. Understand "tree" as oak tree. Description is "The tall oak tree looks out of place in the Eastern Field."
 
 Greenery is scenery in campsite.It is undescribed. Description is "Lots of green everywhere."
 
-Campfire is scenery in campsite. Description is "A blazing campfire to keep you and Luigi warm."
+Campfire is scenery in campsite. It is undescribed. Description is "A blazing campfire to keep you and Luigi warm."
 
-Axe is a thing. Axe is in bedroom. Description is "A sharp axe. What's it doing in here?"
+Wooden Key is a thing. Wooden key unlocks Attic Door.
 
 
 
 [INSTEAD OF/ UNDERSTAND]
+
+Instead of cutting: 
+	if player is carrying axe:
+		say "You chop down the oak tree with the axe, making a tree stump just like the one in the Western field. A mirror image was made. From inside the stump, you see a wooden key.";
+	otherwise:
+		say "You have nothing to cut it down with.".
+		
+Instead of taking wooden key: say "After taking the wooden key, you notice that the planchette begins to move on its own. It spells 'You are brave... Now go...'";
+	move wooden key to player;
+		now player is cool. 
+
+Understand "cut down [oak tree]", "cut [oak tree]", "chop [oak tree]", and "chop down [oak tree]" as cutting. 
 
 Instead of drinking water: say "You're not very thirsty."
 
@@ -93,7 +150,7 @@ Instead of filling canteen:
 
 Understand "drawer" as dresser.
 
-Instead of opening dresser: say "You open the drawer to reveal a shiny, sharp knife."
+Instead of opening dresser: say "You open the drawer to reveal an old, rusted axe. On the inside of the drawer there are dark brown stains on the wood as well as on the axe blade."
 
 Instead of taking water: say "You need something to transport it with."
 
@@ -106,20 +163,41 @@ Instead of reading ouija book:
 	Otherwise: 
 		say "An odd, worn book. The cover reads: [italic type] Beware of Ouija. [roman type] There seem to be four pages in the Ouija Book, though many of the words are smudged and indecipherable. Start by reading page 1 of Ouija Book."
 
-Understand "knock on ouija board 3 times" as commencing. commencing is an action applying to one topic. 
+Understand "Close Ouija board" as closing. 
 
-An every turn rule:
-	If commencing: 
-		say "The ouija board opens with a click, and you immediately feel a presence."
+Instead of closing ouija board: say "You can't seem to close it."
+
+Instead of examining name card: say "You read, 'xxxx xxxxxxxx, Paranormal Investigator. [paragraph break] The planchette moves one final time. 'You're next', it spells. You hear the attic door lock behind you.";
+	end the story finally saying "END."
+
+Instead of reading name card: say "You read, 'xxxx xxxxxxxx, Paranormal Investigator. [paragraph break] The planchette moves one final time. 'You're next', it spells. You hear the attic door lock behind you.";
+	end the story finally saying "END."
 
 
 
 
 
+Understand "knock on ouija board 3 times", "knock 3 times on ouija board", "knock three times on ouija board", and "knock on ouija board three times" as commencing. Commencing is an action applying to one topic. 
 
+Instead of commencing: say "You hear a click. The ouija board is now openable.";
+	now the player is persistant.
+
+Understand "open ouija board" as opening.
+	
+Instead of opening the ouija board:
+	if the player is persistant:
+		say "You open the board as you would a book, and see that the inside is intact. It looks like the traditional Ouija Board, with the alphabet, numbers 0-9, 'Yes' and 'No' at the two top corners of the board. The planchette is fixed to the board in a way so that keeps it from falling off the board when used. Below the numbes, you read 'GOOD BYE' in large letters. In the bottom hand corner of the board you read 'Property of xxxx xxxxxxxx, Paranormal Investigator'. [paragraph break] You notice that Luigi comes up from behind you. [Paragraph break] Luigi: Yo! You got the board open. Try asking the board about the spirit."
+
+			
+
+Mood is a kind of value. The moods are persistant, pleased, and cool. People have mood. The mood of player is pleased.
 
 
 Understand "knock on Ouija Board [text]" and "knock [text] on Ouija Board" as knocking on. Knocking on is an action applying to one topic. 
+
+Understand "knock on Ouija Board" as failing. Failing is an action applying to one topic. 
+
+Instead of failing: say "You knock once on the ouija board. Nothing appears to happen."
 	
 Carry out knocking on:
 	say "Nothing seems to happen."
@@ -130,10 +208,10 @@ Table of Songs
 Topic	Song
 "3 times"	"The Ouija Board opens with a click."
 "Three times"	"The Ouija Board opens with a click."
-"2 times"	"Who's there?"
-"Two times"	"Who's there?"
-"One time"	"You knock on the ouija board. Nothing appears to happen."
-"once"	"You knock on the ouija board. Nothing appears to happen."
+"2 times"	"You knock twice on the ouija board. Nothing appears to happen"
+"Two times"	"You knock twice on the ouija board. Nothing appears to happen?"
+"One time"	"You knock once on the ouija board. Nothing appears to happen."
+"once"	"You knock once on the ouija board. Nothing appears to happen."
 
 
 
@@ -171,7 +249,7 @@ wooden key, then opening the door)[paragraph break]";
 
 [CODE SOURCE FROM INFORM RECIPE BOOK]
 
-ouija book is a thing. ouija book is in cabin. Description is "An odd, worn book. The cover reads: [italic type] Beware of Ouija. [roman type] There seem to be four pages in the Ouija Book, though many of the words are smudged and indecipherable. Start by reading page 1 of Ouija Book."
+ouija book is a thing. ouija book is in cabin. It is undescribed. Description is "An odd, worn book. The cover reads: [italic type] Beware of Ouija. [roman type] There seems to be four pages in the Ouija Book, though many of the words are smudged and indecipherable. Start by reading page 1 of Ouija Book."
 
 The Ouija book has a number called the last page read. The ouija book has a number called the length. The length of the ouija book is 4.
 Understand the command "read" as something new.
@@ -217,10 +295,10 @@ Carry out reading:
 
 Table of Book Contents 
 page	content
-1	"[bold type] Entry One. xx/xx/xxxx. [roman type] I am writing this diary to record my investigations of the axe murder house, located in this very forest in xxxxxxx. I am the famous paranormal invesitgator, xxxx xxxxxxxx. I have come here with the intentions of contacting the spirit of the axe murderer, xxxxxxxx xxx, who died in these woods xx years ago. Reasons behind these murders as well as facts on the killer are unknown. To uncover these mysteries, I plan to contact the spirit of the murderer himself using my ouija board. Also known as the Witch Board, the Ouija Board is an ancient tool used to form a connection with the departed, first used by the Chinese in 1100 AD. Tomorrow night, here in the cabin, I will attempt to tmake spiritual contact through the board."
+1	"[bold type] Entry One. xx/xx/xxxx. [roman type] I am writing this diary to record my investigations of the axe murder house, located in this very forest in xxxxxxx. I am the famous paranormal invesitgator, xxxx xxxxxxxx. I have come here with the intentions of contacting the spirit of the axe murderer, xxxxxxxx xxx, who died in these woods xx years ago. Reasons behind these murders as well as facts on the killer are unknown. To uncover these mysteries, I plan to contact the spirit of the murderer himself using my ouija board. Also known as the Witch Board, the Ouija Board is an ancient tool used to form a connection with the departed, first used by the Chinese in 1100 AD. Tomorrow night, here in the cabin, I will attempt to make spiritual contact through the board."
 2	"[bold type] Entry Two. xx/xx/xxxx. [roman type] Night has fallen, and I am ready to open the board and begin communication with xxxxxxxx xxx. I am quite proud of my special Ouija board. It is unique in that you must knock three times on the board to open it. This insures that not just anyone can have easy access to the board, as using a ouija board is quite dangerous. After opening the board, I will place my hands on the planchette and ready myself both mentally and physically to encounter xxxxxxxx xxx's malevolent spirit. Anyone who's used a ouija board before knows that if the planchette moves to each of the four corners of the board, you have contacted an evil spirit. So, that's what I'm keeping an eye out for while I'm searching for the axe murderer's spirit."
-3	"[bold type] Entry Three. xx/xx/xxxx. [roman type] I did it-- I reached the spirit of xxxxxxxx xxx. His spirit is unlike any I have come into contact with. It responds much faster, and with much greater intelligence than those of most entities. It is powerful, that much is apparent. I must remain wary of xxxxxxxx xxx's malicious intent; false flattery and lies are only to be expected from the likes of it. If anything begins to go wrong, I will simply exit the conversation by moving the planchette to the part of the board 'GOOD BYE', which should sever the connection between the spirit and myself. My goal is to inquire about the final resting place of xxxxxxxx xxx, and to burn the remains. Hopefully by doing this the spirit will be put to rest."
-4	"[bold type] Final Entry. xx/xx/xxxx. [roman type] N o ! This cannot be happening! I have lost control of the planchette, and am unable to exit through the normal means of 'GOODBYE'. I was a fool. I was naïve. The spirit was too cunning. I am frant cally writing t is to anyo e who fi s my d ary or my ouija b ard. D o not t ust the spir t! [bold type] And wha ever yo u do, do not burn t e  o ija boa d!!!!"
+3	"[bold type] Entry Three. xx/xx/xxxx. [roman type] I did it-- I reached the spirit of xxxxxxxx xxx. His spirit is unlike any I have come into contact with. It responds much faster, and with much greater intelligence than those of most entities. It is powerful, that much is apparent. I must remain wary of xxxxxxxx xxx's malicious intent; false flattery and lies are only to be expected from the likes of it. If anything begins to go wrong, I will simply exit the conversation by moving the planchette to the part of the board 'GOOD BYE', which should sever the connection between the spirit and myself. My goal is to inquire about the final resting place of xxxxxxxx xxx, find the remains, and burn them. Hopefully, by doing this, the spirit will be put to rest."
+4	"[bold type] Final Entry. xx/xx/xxxx. [roman type] N o ! This cannot be happening! I have lost control of the planchette, and am unable to exit through the normal means of 'GOODBYE'. I was a fool. I was naïve. The spirit was too cunning. I am frant cally writing t is to anyo e who fi s my d ary or my ouija b ard. D o not fall vic im to the spir t! [bold type] And wha ever yo u do, do not burn t e  o ija boa d!!!!"
 
 To read page (N - a number): 
 	now the last page read of the ouija book is N;
@@ -234,12 +312,19 @@ To read page (N - a number):
 
 
 
+[CONVERSATION WITH ENTITY]
 
-[CONVERSATION]
+
+
+
+
+
+
+[CONVERSATION WITH LUIGI]
 
 Talking to is an action applying to one visible thing. Understand "talk to [someone]" or “converse with [someone]” as talking to.
 
-Check talking to: say "Luigi: Yo! Feel free to ask me about stuff. [paragraph break] You can ask Luigi about Tent, Campsite, Board, Himself, Yourself, etc."
+Check talking to Luigi: say "Luigi: Yo! Feel free to ask me about stuff. [paragraph break] You can ask Luigi about Tent, Campsite, Board, Himself, Yourself, etc."
 
 Instead of asking Luigi about "Ouija Boards":
 	If player is not carrying ouija board: 
@@ -247,9 +332,15 @@ Instead of asking Luigi about "Ouija Boards":
 	otherwise: 
 		say "Luigi: See if you can find a way to open it."
 		
-Instead of asking Luigi about "Board": say "Luigi: It's a ouija board! [paragraph break] You can ask Luigi about Tent, Campsite, Himself, Yourself, etc. "
+Instead of asking Luigi about "Ouija Board":
+	If player is not carrying ouija board: 
+		say "Luigi: They're so cool! I found this one buried in the dirt while I was nailing the tent into the ground. I guess I was meant to find it! Hm, maybe I'll let you take a look at it if you get me something to drink.";
+	otherwise: 
+		say "Luigi: See if you can find a way to open it."
+		
+Instead of asking Luigi about "Board": say "Luigi: It's a ouija board! [paragraph break] You can ask Luigi about Ouija Board, Tent, Campsite, Himself, Yourself, etc. "
 	
-Instead of asking Luigi about "Cabin": say "Luigi: Some creepy old cabin. I wonder who used to live there. [If cabin is unvisited] Bet you're too chicken to investigate. [end if] [paragraph break] You can ask Luigi about Tent, Campsite, Himself, Yourself, etc."
+Instead of asking Luigi about "Cabin": say "Luigi: Some creepy old cabin. I wonder who used to live there. [If cabin is unvisited] Bet you're too chicken to investigate. [end if] [paragraph break] You can ask Luigi about Tent, Board, Campsite, Himself, Yourself, etc."
 
 Instead of asking Luigi about "Tent": say "Luigi: There's some stuff in the tent that we brought. Some tools and survival essentials."
 
