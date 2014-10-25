@@ -398,6 +398,48 @@ Topic	Answer
 
 
 
+[Quick Finish:
+	
+1. Talk to Luigi
+2. Ask Luigi about Book
+3. Ask Luigi about Tent
+3. South
+4. Open Backpack
+5. Take Canteen
+6. North
+7. North
+8. Enter Pond
+9. Fill Canteen
+10. South
+11. Give Canteen to Luigi
+12. North
+13. North
+14. Take Ouija Book
+15. read page 1 of ouija book
+16. read next page
+17. read next page
+18. read next page
+19. Knock 3 times on ouija board
+20. Open ouija board
+21. ask ouija board about the spirit
+12. ask ouija board about the remains
+13. ask ouija board about hint
+14. north
+15. north
+16. east
+17. open drawer
+18. take axe
+19. west
+20. south
+21. east
+21. chop down oak tree
+22. take wooden key
+23. west
+24. north
+25. north
+26. x skeleton
+27. x name card] 
+
 
 
 

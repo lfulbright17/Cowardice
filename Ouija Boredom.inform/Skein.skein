@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x294780" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1c25d680" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1266fce0" />
-  <item nodeId="node-0x294780">
+  <activeNode nodeId="node-0x1c25d680" />
+  <item nodeId="node-0x1c25d680">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -23,16 +23,16 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="1876">NO</temporary>
     <children>
-      <child nodeId="node-0x689dce0" />
-      <child nodeId="node-0x689db90" />
-      <child nodeId="node-0x689dab0" />
-      <child nodeId="node-0x689d260" />
-      <child nodeId="node-0xb36eb30" />
-      <child nodeId="node-0x6899bb0" />
-      <child nodeId="node-0x2947d0" />
+      <child nodeId="node-0x1583d270" />
+      <child nodeId="node-0x158d67f0" />
+      <child nodeId="node-0x158c4330" />
+      <child nodeId="node-0x158abbb0" />
+      <child nodeId="node-0x158f8820" />
+      <child nodeId="node-0x158f87b0" />
+      <child nodeId="node-0x1c282660" />
     </children>
   </item>
-  <item nodeId="node-0x2947d0">
+  <item nodeId="node-0x1c282660">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Tent
@@ -43,528 +43,12 @@ Your backpack sits in the corner. The sleeping bags are unrolled on the ground.
     <changed>NO</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x1263f2c0" />
-      <child nodeId="node-0x6898d40" />
-      <child nodeId="node-0x2948b0" />
+      <child nodeId="node-0x1c2826d0" />
+      <child nodeId="node-0x15828470" />
+      <child nodeId="node-0x1c26cdb0" />
     </children>
   </item>
-  <item nodeId="node-0x2948b0">
-    <command xml:space="preserve">open back pack</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="415">YES</temporary>
-    <children>
-      <child nodeId="node-0x294900" />
-    </children>
-  </item>
-  <item nodeId="node-0x294900">
-    <command xml:space="preserve">open backpack</command>
-    <result xml:space="preserve">You open Backpack, revealing Canteen.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="415">YES</temporary>
-    <children>
-      <child nodeId="node-0x294970" />
-    </children>
-  </item>
-  <item nodeId="node-0x294970">
-    <command xml:space="preserve">take canteen</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="415">YES</temporary>
-    <children>
-      <child nodeId="node-0x2949e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x2949e0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Campsite
-The campsite is surrounded with greenery. You notice an uneven patch of dirt in the ground. 
-
- Your pitched tent is south.
-
-Luigi is lounging around the campsite. He seems to be preoccupied with reading a strange book.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="415">YES</temporary>
-    <children>
-      <child nodeId="node-0x294a50" />
-    </children>
-  </item>
-  <item nodeId="node-0x294a50">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Forest Clearing
-Here there is a lack of trees, giving a view of the stars. In the center of the clearing, there is an oddly symmetrical pond. Now that you look around, you realize that the trees on the perimeter of the clearing seem to mirror each other. 
-
- You can see two paths on either side of the clearing. West is Western Field, and East is Eastern Field. You can see a cabin up ahead. North is to the cabin&apos;s front door. The path South leads to the Campsite.
-
-The perfect-circle pond is serene, and so clear that you can see the bottom. There seems to be nothing alive in the pond.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="415">YES</temporary>
-    <children>
-      <child nodeId="node-0x6897b90" />
-    </children>
-  </item>
-  <item nodeId="node-0x6897b90">
-    <command xml:space="preserve">enter pond</command>
-    <result xml:space="preserve">You get onto Pond.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="415">YES</temporary>
-    <children>
-      <child nodeId="node-0x6897be0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6897be0">
-    <command xml:space="preserve">take canteen</command>
-    <result xml:space="preserve">You already have that.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="415">YES</temporary>
-    <children>
-      <child nodeId="node-0x6897c30" />
-    </children>
-  </item>
-  <item nodeId="node-0x6897c30">
-    <command xml:space="preserve">fill canteen</command>
-    <result xml:space="preserve">(with Canteen)
-You filled the canteen with the pond water.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="415">YES</temporary>
-    <children>
-      <child nodeId="node-0x6897c80" />
-    </children>
-  </item>
-  <item nodeId="node-0x6897c80">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">(first getting off Pond)
-
-Campsite
-The campsite is surrounded with greenery. You notice an uneven patch of dirt in the ground. 
-
- Your pitched tent is south.
-
-Luigi is lounging around the campsite. He seems to be preoccupied with reading a strange book.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="415">YES</temporary>
-    <children>
-      <child nodeId="node-0x6897cf0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6897cf0">
-    <command xml:space="preserve">give canteen to luigi</command>
-    <result xml:space="preserve">Luigi: Yo thanks! Here&apos;s the book, as promised.
-
-
- You are now carrying the Ouija Book.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="415">YES</temporary>
-    <children>
-      <child nodeId="node-0x6897e20" />
-    </children>
-  </item>
-  <item nodeId="node-0x6897e20">
-    <command xml:space="preserve">open ouija book</command>
-    <result xml:space="preserve">It isn&apos;t something you can open.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="415">YES</temporary>
-    <children>
-      <child nodeId="node-0x294ae0" />
-    </children>
-  </item>
-  <item nodeId="node-0x294ae0">
-    <command xml:space="preserve">x ouija book</command>
-    <result xml:space="preserve">An odd, worn book. The cover reads: Beware of Ouija Boards. There seem to be five pages in the book, though many of the words are smudged and indecipherable.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="414">YES</temporary>
-    <children>
-      <child nodeId="node-0x6897e90" />
-    </children>
-  </item>
-  <item nodeId="node-0x6897e90">
-    <command xml:space="preserve">read page one</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x6897f00" />
-    </children>
-  </item>
-  <item nodeId="node-0x6897f00">
-    <command xml:space="preserve">read 1</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x6897f70" />
-    </children>
-  </item>
-  <item nodeId="node-0x6897f70">
-    <command xml:space="preserve">read 1 in ouija board</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x6897fe0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6897fe0">
-    <command xml:space="preserve">read page 1 in ouija board</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x6898050" />
-    </children>
-  </item>
-  <item nodeId="node-0x6898050">
-    <command xml:space="preserve">read page 2 of ouija book</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x68980c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x68980c0">
-    <command xml:space="preserve">read 2 of ouija book</command>
-    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x6897d60" />
-    </children>
-  </item>
-  <item nodeId="node-0x6897d60">
-    <command xml:space="preserve">read the first page of ouija board</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x6897db0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6897db0">
-    <command xml:space="preserve">read the first page of ouija book</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x68982b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x68982b0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x6898320" />
-    </children>
-  </item>
-  <item nodeId="node-0x6898320">
-    <command xml:space="preserve">read book</command>
-    <result xml:space="preserve">What page do you want to read in the book?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x6898390" />
-    </children>
-  </item>
-  <item nodeId="node-0x6898390">
-    <command xml:space="preserve">read the history of ouija boards in ouija book</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x6898400" />
-    </children>
-  </item>
-  <item nodeId="node-0x6898400">
-    <command xml:space="preserve">read 1 page of ouija book</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x6898470" />
-    </children>
-  </item>
-  <item nodeId="node-0x6898470">
-    <command xml:space="preserve">read page one of ouija book</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x68984e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x68984e0">
-    <command xml:space="preserve">read page 1 of ouija book</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x6898550" />
-    </children>
-  </item>
-  <item nodeId="node-0x6898550">
-    <command xml:space="preserve">read the first page in book</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x68985c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x68985c0">
-    <command xml:space="preserve">read 1 in book</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x6898630" />
-    </children>
-  </item>
-  <item nodeId="node-0x6898630">
-    <command xml:space="preserve">read page 1 in book</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x68986a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x68986a0">
-    <command xml:space="preserve">read book</command>
-    <result xml:space="preserve">What page do you want to read in the book?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x6898710" />
-    </children>
-  </item>
-  <item nodeId="node-0x6898710">
-    <command xml:space="preserve">read ouija book</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x6898130" />
-    </children>
-  </item>
-  <item nodeId="node-0x6898130">
-    <command xml:space="preserve">read page one in ouija book</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x68981a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x68981a0">
-    <command xml:space="preserve">read page one in ouija book</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x6898210" />
-    </children>
-  </item>
-  <item nodeId="node-0x6898210">
-    <command xml:space="preserve">read page 1 in ouija book</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x68989c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x68989c0">
-    <command xml:space="preserve">read page 1 in the ouija book</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x6898a30" />
-    </children>
-  </item>
-  <item nodeId="node-0x6898a30">
-    <command xml:space="preserve">read page 1 in ouija book</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x6898aa0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6898aa0">
-    <command xml:space="preserve">read ouija book</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x6898b10" />
-    </children>
-  </item>
-  <item nodeId="node-0x6898b10">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x6898b80" />
-    </children>
-  </item>
-  <item nodeId="node-0x6898b80">
-    <command xml:space="preserve">read ouija book</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x6898bf0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6898bf0">
-    <command xml:space="preserve">pee in book</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x6898c60" />
-    </children>
-  </item>
-  <item nodeId="node-0x6898c60">
-    <command xml:space="preserve">read book</command>
-    <result xml:space="preserve">What page do you want to read in the book?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x6898cd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6898cd0">
-    <command xml:space="preserve">read ouija book</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="401">YES</temporary>
-  </item>
-  <item nodeId="node-0x6898d40">
+  <item nodeId="node-0x1c26cdb0">
     <command xml:space="preserve">open backpack</command>
     <result xml:space="preserve">You open Backpack, revealing Canteen.
 
@@ -573,11 +57,11 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x68999f0" />
-      <child nodeId="node-0x6898db0" />
+      <child nodeId="node-0x158bb190" />
+      <child nodeId="node-0x1c26ce00" />
     </children>
   </item>
-  <item nodeId="node-0x6898db0">
+  <item nodeId="node-0x1c26ce00">
     <command xml:space="preserve">take canteen</command>
     <result xml:space="preserve">Taken.
 
@@ -586,11 +70,11 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x6899130" />
-      <child nodeId="node-0x6898e20" />
+      <child nodeId="node-0x15873d10" />
+      <child nodeId="node-0x1c26ce50" />
     </children>
   </item>
-  <item nodeId="node-0x6898e20">
+  <item nodeId="node-0x1c26ce50">
     <command xml:space="preserve">fill canteen</command>
     <result xml:space="preserve">(with Canteen)
 You have to be in water to fill it.
@@ -600,10 +84,10 @@ You have to be in water to fill it.
     <changed>NO</changed>
     <temporary score="53">YES</temporary>
     <children>
-      <child nodeId="node-0x6898e90" />
+      <child nodeId="node-0x158b7790" />
     </children>
   </item>
-  <item nodeId="node-0x6898e90">
+  <item nodeId="node-0x158b7790">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Campsite
@@ -618,10 +102,10 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>NO</changed>
     <temporary score="53">YES</temporary>
     <children>
-      <child nodeId="node-0x6898f00" />
+      <child nodeId="node-0x158b7800" />
     </children>
   </item>
-  <item nodeId="node-0x6898f00">
+  <item nodeId="node-0x158b7800">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -636,10 +120,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="53">YES</temporary>
     <children>
-      <child nodeId="node-0x6898f70" />
+      <child nodeId="node-0x1586d030" />
     </children>
   </item>
-  <item nodeId="node-0x6898f70">
+  <item nodeId="node-0x1586d030">
     <command xml:space="preserve">enter pond</command>
     <result xml:space="preserve">You get onto Pond.
 
@@ -648,10 +132,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="53">YES</temporary>
     <children>
-      <child nodeId="node-0x6898fe0" />
+      <child nodeId="node-0x1586d0a0" />
     </children>
   </item>
-  <item nodeId="node-0x6898fe0">
+  <item nodeId="node-0x1586d0a0">
     <command xml:space="preserve">fill canteen</command>
     <result xml:space="preserve">(with Canteen)
 You filled the canteen with the pond water.
@@ -661,10 +145,10 @@ You filled the canteen with the pond water.
     <changed>NO</changed>
     <temporary score="53">YES</temporary>
     <children>
-      <child nodeId="node-0x6899050" />
+      <child nodeId="node-0x1580de10" />
     </children>
   </item>
-  <item nodeId="node-0x6899050">
+  <item nodeId="node-0x1580de10">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first getting off Pond)
 
@@ -680,10 +164,10 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>NO</changed>
     <temporary score="53">YES</temporary>
     <children>
-      <child nodeId="node-0x68990c0" />
+      <child nodeId="node-0x1580de60" />
     </children>
   </item>
-  <item nodeId="node-0x68990c0">
+  <item nodeId="node-0x1580de60">
     <command xml:space="preserve">talk to luigi</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -692,10 +176,10 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>NO</changed>
     <temporary score="53">YES</temporary>
     <children>
-      <child nodeId="node-0x6898780" />
+      <child nodeId="node-0x1587d8e0" />
     </children>
   </item>
-  <item nodeId="node-0x6898780">
+  <item nodeId="node-0x1587d8e0">
     <command xml:space="preserve">give luigi canteen</command>
     <result xml:space="preserve">Luigi: Yo thanks! Here&apos;s the book, as promised.
 
@@ -707,10 +191,10 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>NO</changed>
     <temporary score="53">YES</temporary>
     <children>
-      <child nodeId="node-0x68987f0" />
+      <child nodeId="node-0x1587d930" />
     </children>
   </item>
-  <item nodeId="node-0x68987f0">
+  <item nodeId="node-0x1587d930">
     <command xml:space="preserve">read ouija book</command>
     <result xml:space="preserve">You flip the pages randomly and arrive at page 3:
 
@@ -721,10 +205,10 @@ You read: &quot; Contacting an Evil Entity. &quot;
     <changed>YES</changed>
     <temporary score="53">YES</temporary>
     <children>
-      <child nodeId="node-0x6898860" />
+      <child nodeId="node-0x1587d980" />
     </children>
   </item>
-  <item nodeId="node-0x6898860">
+  <item nodeId="node-0x1587d980">
     <command xml:space="preserve">x ouija book</command>
     <result xml:space="preserve">An odd, worn book. The cover reads: Beware of Ouija Boards. There seem to be five pages in the book, though many of the words are smudged and indecipherable.
 
@@ -733,10 +217,10 @@ You read: &quot; Contacting an Evil Entity. &quot;
     <changed>NO</changed>
     <temporary score="53">YES</temporary>
     <children>
-      <child nodeId="node-0x68988d0" />
+      <child nodeId="node-0x15886ae0" />
     </children>
   </item>
-  <item nodeId="node-0x68988d0">
+  <item nodeId="node-0x15886ae0">
     <command xml:space="preserve">read page one</command>
     <result xml:space="preserve">What do you want to read page that in?
 
@@ -745,10 +229,10 @@ You read: &quot; Contacting an Evil Entity. &quot;
     <changed>NO</changed>
     <temporary score="53">YES</temporary>
     <children>
-      <child nodeId="node-0x6898940" />
+      <child nodeId="node-0x15886b50" />
     </children>
   </item>
-  <item nodeId="node-0x6898940">
+  <item nodeId="node-0x15886b50">
     <command xml:space="preserve">read page one of ouija book</command>
     <result xml:space="preserve">You read: &quot; History of Ouija Boards.  Also known as the Witch Board, the Ouija Board is an ancient tool that was used to form a connection with the departed, from as early as 1100 AD in China. Though controversial, the Ouija Board has gained esteem through its reportings of encounters with spirits, both benign and malicious entities alike.&quot;
 
@@ -757,7 +241,7 @@ You read: &quot; Contacting an Evil Entity. &quot;
     <changed>YES</changed>
     <temporary score="52">YES</temporary>
   </item>
-  <item nodeId="node-0x6899130">
+  <item nodeId="node-0x15873d10">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Campsite
@@ -770,10 +254,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x68991a0" />
+      <child nodeId="node-0x15873d80" />
     </children>
   </item>
-  <item nodeId="node-0x68991a0">
+  <item nodeId="node-0x15873d80">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -788,10 +272,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x6899210" />
+      <child nodeId="node-0x1c268770" />
     </children>
   </item>
-  <item nodeId="node-0x6899210">
+  <item nodeId="node-0x1c268770">
     <command xml:space="preserve">enter pond</command>
     <result xml:space="preserve">You step into the pond.
 
@@ -805,10 +289,10 @@ Here there is a lack of trees, giving a view of the stars. In the center of the 
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x6899280" />
+      <child nodeId="node-0x1c2687c0" />
     </children>
   </item>
-  <item nodeId="node-0x6899280">
+  <item nodeId="node-0x1c2687c0">
     <command xml:space="preserve">fill canteen</command>
     <result xml:space="preserve">(with Canteen)
 You filled the canteen with the pond water.
@@ -818,10 +302,10 @@ You filled the canteen with the pond water.
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x68992f0" />
+      <child nodeId="node-0x1c250540" />
     </children>
   </item>
-  <item nodeId="node-0x68992f0">
+  <item nodeId="node-0x1c250540">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first getting off Pond)
 
@@ -835,11 +319,11 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0xfb44930" />
-      <child nodeId="node-0x6899360" />
+      <child nodeId="node-0x158a3320" />
+      <child nodeId="node-0x1c250590" />
     </children>
   </item>
-  <item nodeId="node-0x6899360">
+  <item nodeId="node-0x1c250590">
     <command xml:space="preserve">give canteen to luigi</command>
     <result xml:space="preserve">Luigi: Yo, thanks! Here&apos;s the board, as promised. I forgot to mention that I don&apos;t know how to open the board. It&apos;s like it&apos;s magically shut!  No matter what I do, I can&apos;t seem to get it open. Maybe you have some idea of how to do it?
 
@@ -851,11 +335,11 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0xfbcb5a0" />
-      <child nodeId="node-0x68993d0" />
+      <child nodeId="node-0x1c273770" />
+      <child nodeId="node-0x1c2505e0" />
     </children>
   </item>
-  <item nodeId="node-0x68993d0">
+  <item nodeId="node-0x1c2505e0">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying:
   ouija board
@@ -865,10 +349,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="231">YES</temporary>
     <children>
-      <child nodeId="node-0x6899440" />
+      <child nodeId="node-0x15847460" />
     </children>
   </item>
-  <item nodeId="node-0x6899440">
+  <item nodeId="node-0x15847460">
     <command xml:space="preserve">luigi</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -877,10 +361,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="231">YES</temporary>
     <children>
-      <child nodeId="node-0x68994b0" />
+      <child nodeId="node-0x158474d0" />
     </children>
   </item>
-  <item nodeId="node-0x68994b0">
+  <item nodeId="node-0x158474d0">
     <command xml:space="preserve">l luigi</command>
     <result xml:space="preserve">It&apos;s a your good friend, Luigi.
 
@@ -889,10 +373,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="231">YES</temporary>
     <children>
-      <child nodeId="node-0x6899520" />
+      <child nodeId="node-0x15810040" />
     </children>
   </item>
-  <item nodeId="node-0x6899520">
+  <item nodeId="node-0x15810040">
     <command xml:space="preserve">ask luigi about axe</command>
     <result xml:space="preserve">There is no reply.
 
@@ -901,10 +385,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="231">YES</temporary>
     <children>
-      <child nodeId="node-0x6899590" />
+      <child nodeId="node-0x158100b0" />
     </children>
   </item>
-  <item nodeId="node-0x6899590">
+  <item nodeId="node-0x158100b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -919,10 +403,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="231">YES</temporary>
     <children>
-      <child nodeId="node-0x6899600" />
+      <child nodeId="node-0x158ae7b0" />
     </children>
   </item>
-  <item nodeId="node-0x6899600">
+  <item nodeId="node-0x158ae7b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Cabin
@@ -933,10 +417,10 @@ You enter the abandoned cabin. North of Cabin is Attic. East of Cabin is Bedroom
     <changed>NO</changed>
     <temporary score="231">YES</temporary>
     <children>
-      <child nodeId="node-0x6899670" />
+      <child nodeId="node-0x158ae800" />
     </children>
   </item>
-  <item nodeId="node-0x6899670">
+  <item nodeId="node-0x158ae800">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening attic door)
 It seems to be locked.
@@ -946,10 +430,10 @@ It seems to be locked.
     <changed>NO</changed>
     <temporary score="231">YES</temporary>
     <children>
-      <child nodeId="node-0x68996e0" />
+      <child nodeId="node-0x1580aeb0" />
     </children>
   </item>
-  <item nodeId="node-0x68996e0">
+  <item nodeId="node-0x1580aeb0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -964,10 +448,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="231">YES</temporary>
     <children>
-      <child nodeId="node-0x6899750" />
+      <child nodeId="node-0x1580af00" />
     </children>
   </item>
-  <item nodeId="node-0x6899750">
+  <item nodeId="node-0x1580af00">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Campsite
@@ -982,10 +466,10 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>NO</changed>
     <temporary score="231">YES</temporary>
     <children>
-      <child nodeId="node-0x68997c0" />
+      <child nodeId="node-0x1580af50" />
     </children>
   </item>
-  <item nodeId="node-0x68997c0">
+  <item nodeId="node-0x1580af50">
     <command xml:space="preserve">talk to luigi</command>
     <result xml:space="preserve">Luigi: Yo! Feel free to ask me about stuff. 
 
@@ -996,10 +480,10 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>YES</changed>
     <temporary score="231">YES</temporary>
     <children>
-      <child nodeId="node-0x6899830" />
+      <child nodeId="node-0x158a1ae0" />
     </children>
   </item>
-  <item nodeId="node-0x6899830">
+  <item nodeId="node-0x158a1ae0">
     <command xml:space="preserve">ask luigi about ouija boards</command>
     <result xml:space="preserve">Luigi: See if you can find a way to open it.
 
@@ -1008,10 +492,10 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>NO</changed>
     <temporary score="231">YES</temporary>
     <children>
-      <child nodeId="node-0x68998a0" />
+      <child nodeId="node-0x158a1b50" />
     </children>
   </item>
-  <item nodeId="node-0x68998a0">
+  <item nodeId="node-0x158a1b50">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying:
   ouija board
@@ -1021,10 +505,10 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>NO</changed>
     <temporary score="231">YES</temporary>
     <children>
-      <child nodeId="node-0x6899910" />
+      <child nodeId="node-0x1584a700" />
     </children>
   </item>
-  <item nodeId="node-0x6899910">
+  <item nodeId="node-0x1584a700">
     <command xml:space="preserve">ask luigi about ouija boards</command>
     <result xml:space="preserve">Luigi: See if you can find a way to open it.
 
@@ -1033,10 +517,10 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>NO</changed>
     <temporary score="231">YES</temporary>
     <children>
-      <child nodeId="node-0x6899980" />
+      <child nodeId="node-0x1584a770" />
     </children>
   </item>
-  <item nodeId="node-0x6899980">
+  <item nodeId="node-0x1584a770">
     <command xml:space="preserve">give water to luigi</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1045,7 +529,7 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>YES</changed>
     <temporary score="230">YES</temporary>
   </item>
-  <item nodeId="node-0xfbcb5a0">
+  <item nodeId="node-0x1c273770">
     <command xml:space="preserve">knock on ouija board 3 times</command>
     <result xml:space="preserve">You hear a click. The ouija board is now openable.
 
@@ -1054,10 +538,10 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0xfb20e00" />
+      <child nodeId="node-0x1c2737c0" />
     </children>
   </item>
-  <item nodeId="node-0xfb20e00">
+  <item nodeId="node-0x1c2737c0">
     <command xml:space="preserve">knock on ouija board 2 times</command>
     <result xml:space="preserve">You knock twice on the ouija board. Nothing appears to happen
 
@@ -1066,10 +550,10 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x2c2640" />
+      <child nodeId="node-0x158ef930" />
     </children>
   </item>
-  <item nodeId="node-0x2c2640">
+  <item nodeId="node-0x158ef930">
     <command xml:space="preserve">open ouija board</command>
     <result xml:space="preserve">You open the board as you would a book, and see that the inside is intact. It looks like the traditional Ouija Board, with the alphabet, numbers 0-9, &quot;Yes&quot; and &quot;No&quot; at the two top corners of the board. The planchette is fixed to the board in a way so that keeps it from falling off the board when used. Below the numbes, you read &quot;GOOD BYE&quot; in large letters. In the bottom hand corner of the board you read &quot;Property of xxxx xxxxxxxx, Paranormal Investigator&quot;. 
 
@@ -1082,10 +566,10 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x1d096580" />
+      <child nodeId="node-0x158ef980" />
     </children>
   </item>
-  <item nodeId="node-0x1d096580">
+  <item nodeId="node-0x158ef980">
     <command xml:space="preserve">ask board about the spirit</command>
     <result xml:space="preserve">You place your hands on the planchette, and immediately after asking the question, the planchette smoothly moves across the alphabet, spelling &quot;i am here&quot;. 
 
@@ -1096,10 +580,10 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x169f59f0" />
+      <child nodeId="node-0x158ef9d0" />
     </children>
   </item>
-  <item nodeId="node-0x169f59f0">
+  <item nodeId="node-0x158ef9d0">
     <command xml:space="preserve">ask board about hint</command>
     <result xml:space="preserve">The planchette spells out &quot;Axes make mirrors. Life and death are mirrors. Young and old, rich and poor.  East and West are mirrors as well. 
 
@@ -1110,10 +594,10 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x169639f0" />
+      <child nodeId="node-0x15840180" />
     </children>
   </item>
-  <item nodeId="node-0x169639f0">
+  <item nodeId="node-0x15840180">
     <command xml:space="preserve">talk to luigi</command>
     <result xml:space="preserve">Luigi: Yo! Feel free to ask me about stuff. 
 
@@ -1124,10 +608,10 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x1d724c90" />
+      <child nodeId="node-0x158401f0" />
     </children>
   </item>
-  <item nodeId="node-0x1d724c90">
+  <item nodeId="node-0x158401f0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Tent
@@ -1138,10 +622,10 @@ Your backpack sits in the corner. The sleeping bags are unrolled on the ground.
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x1d0841a0" />
+      <child nodeId="node-0x15867090" />
     </children>
   </item>
-  <item nodeId="node-0x1d0841a0">
+  <item nodeId="node-0x15867090">
     <command xml:space="preserve">talk to luigi</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1150,10 +634,10 @@ Your backpack sits in the corner. The sleeping bags are unrolled on the ground.
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x1690c440" />
+      <child nodeId="node-0x15867100" />
     </children>
   </item>
-  <item nodeId="node-0x1690c440">
+  <item nodeId="node-0x15867100">
     <command xml:space="preserve">cut luigi</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1162,10 +646,10 @@ Your backpack sits in the corner. The sleeping bags are unrolled on the ground.
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0xfbba6a0" />
+      <child nodeId="node-0x1580a830" />
     </children>
   </item>
-  <item nodeId="node-0xfbba6a0">
+  <item nodeId="node-0x1580a830">
     <command xml:space="preserve">cut tree</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1174,10 +658,10 @@ Your backpack sits in the corner. The sleeping bags are unrolled on the ground.
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x1691d350" />
+      <child nodeId="node-0x1580a880" />
     </children>
   </item>
-  <item nodeId="node-0x1691d350">
+  <item nodeId="node-0x1580a880">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Campsite
@@ -1190,10 +674,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x1d78afa0" />
+      <child nodeId="node-0x15872810" />
     </children>
   </item>
-  <item nodeId="node-0x1d78afa0">
+  <item nodeId="node-0x15872810">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -1208,10 +692,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x1a277cf0" />
+      <child nodeId="node-0x15872860" />
     </children>
   </item>
-  <item nodeId="node-0x1a277cf0">
+  <item nodeId="node-0x15872860">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Western Field
@@ -1222,10 +706,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x68c63d0" />
+      <child nodeId="node-0x158728b0" />
     </children>
   </item>
-  <item nodeId="node-0x68c63d0">
+  <item nodeId="node-0x158728b0">
     <command xml:space="preserve">x trees</command>
     <result xml:space="preserve">You see five identical birch trees (name: Western Birch Trees), all growing in a straight row. On one end of the row of trees, there is a tree stump.
 
@@ -1234,10 +718,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x10b8ecd0" />
+      <child nodeId="node-0x15881c80" />
     </children>
   </item>
-  <item nodeId="node-0x10b8ecd0">
+  <item nodeId="node-0x15881c80">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -1252,10 +736,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x169058c0" />
+      <child nodeId="node-0x15881cf0" />
     </children>
   </item>
-  <item nodeId="node-0x169058c0">
+  <item nodeId="node-0x15881cf0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Eastern Field
@@ -1266,10 +750,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x16948f30" />
+      <child nodeId="node-0x158bd5d0" />
     </children>
   </item>
-  <item nodeId="node-0x16948f30">
+  <item nodeId="node-0x158bd5d0">
     <command xml:space="preserve">x trees</command>
     <result xml:space="preserve">You see five identical birch trees (name: Eastern Birch Trees), all growing in a straight row. On one end of the row of trees, there is an oak tree  where, in the Western Field, there is a stump .
 
@@ -1278,10 +762,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x1d083930" />
+      <child nodeId="node-0x158bd640" />
     </children>
   </item>
-  <item nodeId="node-0x1d083930">
+  <item nodeId="node-0x158bd640">
     <command xml:space="preserve">x oak tree</command>
     <result xml:space="preserve">The tall oak tree looks out of place in the Eastern Field.
 
@@ -1290,10 +774,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x1d0f1300" />
+      <child nodeId="node-0x15819310" />
     </children>
   </item>
-  <item nodeId="node-0x1d0f1300">
+  <item nodeId="node-0x15819310">
     <command xml:space="preserve">chop down oak tree</command>
     <result xml:space="preserve">You have nothing to cut it down with.
 
@@ -1302,10 +786,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x1692f370" />
+      <child nodeId="node-0x15819360" />
     </children>
   </item>
-  <item nodeId="node-0x1692f370">
+  <item nodeId="node-0x15819360">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying:
   ouija board
@@ -1315,10 +799,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x1d04efb0" />
+      <child nodeId="node-0x158187b0" />
     </children>
   </item>
-  <item nodeId="node-0x1d04efb0">
+  <item nodeId="node-0x158187b0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -1333,10 +817,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x16970400" />
+      <child nodeId="node-0x15818800" />
     </children>
   </item>
-  <item nodeId="node-0x16970400">
+  <item nodeId="node-0x15818800">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Cabin
@@ -1349,10 +833,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0xfb07e10" />
+      <child nodeId="node-0x15818850" />
     </children>
   </item>
-  <item nodeId="node-0xfb07e10">
+  <item nodeId="node-0x15818850">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Bedroom
@@ -1363,10 +847,10 @@ Besides a bed and a dresser, the room is barren. Like the first room in the cabi
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x1d065150" />
+      <child nodeId="node-0x1588ef10" />
     </children>
   </item>
-  <item nodeId="node-0x1d065150">
+  <item nodeId="node-0x1588ef10">
     <command xml:space="preserve">take axe</command>
     <result xml:space="preserve">Taken.
 
@@ -1375,10 +859,10 @@ Besides a bed and a dresser, the room is barren. Like the first room in the cabi
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x1694dcd0" />
+      <child nodeId="node-0x1588ef80" />
     </children>
   </item>
-  <item nodeId="node-0x1694dcd0">
+  <item nodeId="node-0x1588ef80">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Cabin
@@ -1391,10 +875,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x1d0ad1b0" />
+      <child nodeId="node-0x1582a630" />
     </children>
   </item>
-  <item nodeId="node-0x1d0ad1b0">
+  <item nodeId="node-0x1582a630">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -1409,10 +893,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0xc5d29b0" />
+      <child nodeId="node-0x1582a6a0" />
     </children>
   </item>
-  <item nodeId="node-0xc5d29b0">
+  <item nodeId="node-0x1582a6a0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Eastern Field
@@ -1423,10 +907,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0xb3b2380" />
+      <child nodeId="node-0x15895270" />
     </children>
   </item>
-  <item nodeId="node-0xb3b2380">
+  <item nodeId="node-0x15895270">
     <command xml:space="preserve">x trees</command>
     <result xml:space="preserve">You see five identical birch trees (name: Eastern Birch Trees), all growing in a straight row. On one end of the row of trees, there is an oak tree  where, in the Western Field, there is a stump .
 
@@ -1435,10 +919,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x1d00a9e0" />
+      <child nodeId="node-0x158952c0" />
     </children>
   </item>
-  <item nodeId="node-0x1d00a9e0">
+  <item nodeId="node-0x158952c0">
     <command xml:space="preserve">chope down tree</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1447,10 +931,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x169e8ff0" />
+      <child nodeId="node-0x15838060" />
     </children>
   </item>
-  <item nodeId="node-0x169e8ff0">
+  <item nodeId="node-0x15838060">
     <command xml:space="preserve">chop down tree</command>
     <result xml:space="preserve">You chop down the oak tree with the axe. From inside the tree, you find a wooden key.
 
@@ -1459,10 +943,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x1d715f80" />
+      <child nodeId="node-0x158380b0" />
     </children>
   </item>
-  <item nodeId="node-0x1d715f80">
+  <item nodeId="node-0x158380b0">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying:
   axe
@@ -1473,10 +957,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0xc500e70" />
+      <child nodeId="node-0x15838100" />
     </children>
   </item>
-  <item nodeId="node-0xc500e70">
+  <item nodeId="node-0x15838100">
     <command xml:space="preserve">chop down tree</command>
     <result xml:space="preserve">You chop down the oak tree with the axe. From inside the tree, you find a wooden key.
 
@@ -1485,10 +969,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x126936f0" />
+      <child nodeId="node-0x1586ff30" />
     </children>
   </item>
-  <item nodeId="node-0x126936f0">
+  <item nodeId="node-0x1586ff30">
     <command xml:space="preserve">take wooden key</command>
     <result xml:space="preserve">After taking the wooden key, you notice that the planchette begins to move on its own. It spells &quot;You are brave... Now go...&quot;
 
@@ -1497,10 +981,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>YES</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x169c2350" />
+      <child nodeId="node-0x1586ffa0" />
     </children>
   </item>
-  <item nodeId="node-0x169c2350">
+  <item nodeId="node-0x1586ffa0">
     <command xml:space="preserve">x wooden key</command>
     <result xml:space="preserve">A wooden key that came from the tree stump.
 
@@ -1509,10 +993,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0x1d7d0ea0" />
+      <child nodeId="node-0x1587cd40" />
     </children>
   </item>
-  <item nodeId="node-0x1d7d0ea0">
+  <item nodeId="node-0x1587cd40">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -1527,10 +1011,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0xc526440" />
+      <child nodeId="node-0x1587cdb0" />
     </children>
   </item>
-  <item nodeId="node-0xc526440">
+  <item nodeId="node-0x1587cdb0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Cabin
@@ -1543,10 +1027,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1702">YES</temporary>
     <children>
-      <child nodeId="node-0xc5046b0" />
+      <child nodeId="node-0x158a32d0" />
     </children>
   </item>
-  <item nodeId="node-0xc5046b0">
+  <item nodeId="node-0x158a32d0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first unlocking the attic door with the wooden key, then opening the door)
 
@@ -1558,7 +1042,7 @@ The Attic is dust covered and moldy. In the center of the room, on the floor, li
     <changed>NO</changed>
     <temporary score="1701">YES</temporary>
   </item>
-  <item nodeId="node-0xfb44930">
+  <item nodeId="node-0x158a3320">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Tent
@@ -1569,10 +1053,10 @@ Your backpack sits in the corner. The sleeping bags are unrolled on the ground.
     <changed>NO</changed>
     <temporary score="1351">YES</temporary>
     <children>
-      <child nodeId="node-0xc427880" />
+      <child nodeId="node-0x1589b220" />
     </children>
   </item>
-  <item nodeId="node-0xc427880">
+  <item nodeId="node-0x1589b220">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Campsite
@@ -1585,10 +1069,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="1351">YES</temporary>
     <children>
-      <child nodeId="node-0xb35c460" />
+      <child nodeId="node-0x1589b270" />
     </children>
   </item>
-  <item nodeId="node-0xb35c460">
+  <item nodeId="node-0x1589b270">
     <command xml:space="preserve">give canteen to luigi</command>
     <result xml:space="preserve">Luigi: Yo, thanks! Here&apos;s the board, as promised. I forgot to mention that I don&apos;t know how to open the board. It&apos;s like it&apos;s magically shut!  No matter what I do, I can&apos;t seem to get it open. Maybe you have some idea of how to do it?
 
@@ -1600,27 +1084,27 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="1351">YES</temporary>
     <children>
-      <child nodeId="node-0xb37eef0" />
+      <child nodeId="node-0x1589b2c0" />
     </children>
   </item>
-  <item nodeId="node-0xb37eef0">
+  <item nodeId="node-0x1589b2c0">
     <command xml:space="preserve">knock 3 times on ouija board</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="1351">YES</temporary>
     <children>
-      <child nodeId="node-0x1d046860" />
+      <child nodeId="node-0x158bb120" />
     </children>
   </item>
-  <item nodeId="node-0x1d046860">
+  <item nodeId="node-0x158bb120">
     <command xml:space="preserve">knock 3 times on ouija board</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="1350">YES</temporary>
   </item>
-  <item nodeId="node-0x68999f0">
+  <item nodeId="node-0x158bb190">
     <command xml:space="preserve">look in backpack</command>
     <result xml:space="preserve">In Backpack is Canteen.
 
@@ -1629,10 +1113,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>YES</changed>
     <temporary score="60">YES</temporary>
     <children>
-      <child nodeId="node-0x6899a60" />
+      <child nodeId="node-0x15811950" />
     </children>
   </item>
-  <item nodeId="node-0x6899a60">
+  <item nodeId="node-0x15811950">
     <command xml:space="preserve">x canteen</command>
     <result xml:space="preserve">Canteen is empty.
 
@@ -1641,10 +1125,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>YES</changed>
     <temporary score="60">YES</temporary>
     <children>
-      <child nodeId="node-0x6899ad0" />
+      <child nodeId="node-0x158119c0" />
     </children>
   </item>
-  <item nodeId="node-0x6899ad0">
+  <item nodeId="node-0x158119c0">
     <command xml:space="preserve">take canteen</command>
     <result xml:space="preserve">Taken.
 
@@ -1653,10 +1137,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>YES</changed>
     <temporary score="60">YES</temporary>
     <children>
-      <child nodeId="node-0x6899b40" />
+      <child nodeId="node-0x15828420" />
     </children>
   </item>
-  <item nodeId="node-0x6899b40">
+  <item nodeId="node-0x15828420">
     <command xml:space="preserve">take backpack</command>
     <result xml:space="preserve">That&apos;s fixed in place.
 
@@ -1665,7 +1149,7 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>YES</changed>
     <temporary score="59">YES</temporary>
   </item>
-  <item nodeId="node-0x1263f2c0">
+  <item nodeId="node-0x15828470">
     <command xml:space="preserve">take canteen</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1674,10 +1158,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x126bfef0" />
+      <child nodeId="node-0x158a4f00" />
     </children>
   </item>
-  <item nodeId="node-0x126bfef0">
+  <item nodeId="node-0x158a4f00">
     <command xml:space="preserve">open backpack</command>
     <result xml:space="preserve">You open Backpack, revealing Canteen.
 
@@ -1686,10 +1170,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x15867440" />
+      <child nodeId="node-0x158a4f50" />
     </children>
   </item>
-  <item nodeId="node-0x15867440">
+  <item nodeId="node-0x158a4f50">
     <command xml:space="preserve">take canteen</command>
     <result xml:space="preserve">Taken.
 
@@ -1698,10 +1182,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x1d02e870" />
+      <child nodeId="node-0x158a4fa0" />
     </children>
   </item>
-  <item nodeId="node-0x1d02e870">
+  <item nodeId="node-0x158a4fa0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Campsite
@@ -1714,10 +1198,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x1d72bbf0" />
+      <child nodeId="node-0x158b21a0" />
     </children>
   </item>
-  <item nodeId="node-0x1d72bbf0">
+  <item nodeId="node-0x158b21a0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -1732,10 +1216,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x1268a470" />
+      <child nodeId="node-0x158b2210" />
     </children>
   </item>
-  <item nodeId="node-0x1268a470">
+  <item nodeId="node-0x158b2210">
     <command xml:space="preserve">fill canteen</command>
     <result xml:space="preserve">(with Canteen)
 You have to be in water to fill it.
@@ -1745,10 +1229,10 @@ You have to be in water to fill it.
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x16936b00" />
+      <child nodeId="node-0x158beef0" />
     </children>
   </item>
-  <item nodeId="node-0x16936b00">
+  <item nodeId="node-0x158beef0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Campsite
@@ -1761,10 +1245,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x1266dbc0" />
+      <child nodeId="node-0x158bef60" />
     </children>
   </item>
-  <item nodeId="node-0x1266dbc0">
+  <item nodeId="node-0x158bef60">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Tent
@@ -1775,10 +1259,10 @@ Your backpack sits in the corner. The sleeping bags are unrolled on the ground.
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x1268f110" />
+      <child nodeId="node-0x1581e670" />
     </children>
   </item>
-  <item nodeId="node-0x1268f110">
+  <item nodeId="node-0x1581e670">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Campsite
@@ -1791,10 +1275,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x1d06d340" />
+      <child nodeId="node-0x1581e6c0" />
     </children>
   </item>
-  <item nodeId="node-0x1d06d340">
+  <item nodeId="node-0x1581e6c0">
     <command xml:space="preserve">give canteen to luigi</command>
     <result xml:space="preserve">Luigi: Yo, thanks! Here&apos;s the board, as promised. I forgot to mention that I don&apos;t know how to open the board. It&apos;s like it&apos;s magically shut!  No matter what I do, I can&apos;t seem to get it open. Maybe you have some idea of how to do it?
 
@@ -1806,10 +1290,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x1690f540" />
+      <child nodeId="node-0x158aeea0" />
     </children>
   </item>
-  <item nodeId="node-0x1690f540">
+  <item nodeId="node-0x158aeea0">
     <command xml:space="preserve">knock on ouija board 3 times</command>
     <result xml:space="preserve">You hear a click. The ouija board is now openable.
 
@@ -1818,10 +1302,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x126afbf0" />
+      <child nodeId="node-0x158aeef0" />
     </children>
   </item>
-  <item nodeId="node-0x126afbf0">
+  <item nodeId="node-0x158aeef0">
     <command xml:space="preserve">open ouija board</command>
     <result xml:space="preserve">You open the board as you would a book, and see that the inside is intact. It looks like the traditional Ouija Board, with the alphabet, numbers 0-9, &quot;Yes&quot; and &quot;No&quot; at the two top corners of the board. The planchette is fixed to the board in a way so that keeps it from falling off the board when used. Below the numbes, you read &quot;GOOD BYE&quot; in large letters. In the bottom hand corner of the board you read &quot;Property of xxxx xxxxxxxx, Paranormal Investigator&quot;. 
 
@@ -1834,10 +1318,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x12650a50" />
+      <child nodeId="node-0x158aef40" />
     </children>
   </item>
-  <item nodeId="node-0x12650a50">
+  <item nodeId="node-0x158aef40">
     <command xml:space="preserve">ask ouija board about the spirit</command>
     <result xml:space="preserve">You place your hands on the planchette, and immediately after asking the question, the planchette smoothly moves across the alphabet, spelling &quot;i am here&quot;. 
 
@@ -1848,10 +1332,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x16932c50" />
+      <child nodeId="node-0x15816890" />
     </children>
   </item>
-  <item nodeId="node-0x16932c50">
+  <item nodeId="node-0x15816890">
     <command xml:space="preserve">ask ouija board about the remains</command>
     <result xml:space="preserve">The planchette does not move for a while. Then, it slowly spells &quot;make a mirror image&quot;. 
 
@@ -1862,10 +1346,10 @@ Luigi: What does it mean, make a mirror image? What is it asking us to do?
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x126a9a30" />
+      <child nodeId="node-0x15816900" />
     </children>
   </item>
-  <item nodeId="node-0x126a9a30">
+  <item nodeId="node-0x15816900">
     <command xml:space="preserve">ask ouija board about hint</command>
     <result xml:space="preserve">The planchette spells out &quot;Axes make mirrors. Life and death are mirrors. Young and old, rich and poor.  East and West are mirrors as well. 
 
@@ -1876,10 +1360,10 @@ Luigi: What does it mean, make a mirror image? What is it asking us to do?
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0xc5f0de0" />
+      <child nodeId="node-0x158ae3a0" />
     </children>
   </item>
-  <item nodeId="node-0xc5f0de0">
+  <item nodeId="node-0x158ae3a0">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -1894,10 +1378,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x169d1c20" />
+      <child nodeId="node-0x158ae410" />
     </children>
   </item>
-  <item nodeId="node-0x169d1c20">
+  <item nodeId="node-0x158ae410">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Cabin
@@ -1910,10 +1394,10 @@ Cabin
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x10b09e90" />
+      <child nodeId="node-0x15804510" />
     </children>
   </item>
-  <item nodeId="node-0x10b09e90">
+  <item nodeId="node-0x15804510">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -1928,10 +1412,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x126e18f0" />
+      <child nodeId="node-0x15804560" />
     </children>
   </item>
-  <item nodeId="node-0x126e18f0">
+  <item nodeId="node-0x15804560">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Campsite
@@ -1944,10 +1428,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x16931e40" />
+      <child nodeId="node-0x158165a0" />
     </children>
   </item>
-  <item nodeId="node-0x16931e40">
+  <item nodeId="node-0x158165a0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -1962,10 +1446,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x1269d590" />
+      <child nodeId="node-0x158165f0" />
     </children>
   </item>
-  <item nodeId="node-0x1269d590">
+  <item nodeId="node-0x158165f0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Eastern Field
@@ -1976,10 +1460,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x1d079620" />
+      <child nodeId="node-0x15816640" />
     </children>
   </item>
-  <item nodeId="node-0x1d079620">
+  <item nodeId="node-0x15816640">
     <command xml:space="preserve">chop down oak tree</command>
     <result xml:space="preserve">You have nothing to cut it down with.
 
@@ -1988,10 +1472,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x169e2ed0" />
+      <child nodeId="node-0x158b0b30" />
     </children>
   </item>
-  <item nodeId="node-0x169e2ed0">
+  <item nodeId="node-0x158b0b30">
     <command xml:space="preserve">take wooden key</command>
     <result xml:space="preserve">After taking the wooden key, you notice that the planchette begins to move on its own. It spells &quot;You are brave... Now go...&quot;
 
@@ -2000,10 +1484,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0xc5298e0" />
+      <child nodeId="node-0x158b0ba0" />
     </children>
   </item>
-  <item nodeId="node-0xc5298e0">
+  <item nodeId="node-0x158b0ba0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2012,10 +1496,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0xc505200" />
+      <child nodeId="node-0x158b1c80" />
     </children>
   </item>
-  <item nodeId="node-0xc505200">
+  <item nodeId="node-0x158b1c80">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -2030,10 +1514,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x1d7e8370" />
+      <child nodeId="node-0x158b1cf0" />
     </children>
   </item>
-  <item nodeId="node-0x1d7e8370">
+  <item nodeId="node-0x158b1cf0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Cabin
@@ -2046,22 +1530,538 @@ Cabin
     <changed>YES</changed>
     <temporary score="1876">YES</temporary>
     <children>
-      <child nodeId="node-0x1266fce0" />
+      <child nodeId="node-0x158f8760" />
     </children>
   </item>
-  <item nodeId="node-0x1266fce0">
+  <item nodeId="node-0x158f8760">
     <command xml:space="preserve">n</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="1875">YES</temporary>
   </item>
-  <item nodeId="node-0x6899bb0">
+  <item nodeId="node-0x1c2826d0">
+    <command xml:space="preserve">open back pack</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="415">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c2805b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c2805b0">
+    <command xml:space="preserve">open backpack</command>
+    <result xml:space="preserve">You open Backpack, revealing Canteen.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="415">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c278f30" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c278f30">
+    <command xml:space="preserve">take canteen</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="415">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c278f80" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c278f80">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Campsite
+The campsite is surrounded with greenery. You notice an uneven patch of dirt in the ground. 
+
+ Your pitched tent is south.
+
+Luigi is lounging around the campsite. He seems to be preoccupied with reading a strange book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="415">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c278fd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c278fd0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Forest Clearing
+Here there is a lack of trees, giving a view of the stars. In the center of the clearing, there is an oddly symmetrical pond. Now that you look around, you realize that the trees on the perimeter of the clearing seem to mirror each other. 
+
+ You can see two paths on either side of the clearing. West is Western Field, and East is Eastern Field. You can see a cabin up ahead. North is to the cabin&apos;s front door. The path South leads to the Campsite.
+
+The perfect-circle pond is serene, and so clear that you can see the bottom. There seems to be nothing alive in the pond.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="415">YES</temporary>
+    <children>
+      <child nodeId="node-0x158cc7f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x158cc7f0">
+    <command xml:space="preserve">enter pond</command>
+    <result xml:space="preserve">You get onto Pond.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="415">YES</temporary>
+    <children>
+      <child nodeId="node-0x1580fee0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1580fee0">
+    <command xml:space="preserve">take canteen</command>
+    <result xml:space="preserve">You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="415">YES</temporary>
+    <children>
+      <child nodeId="node-0x1580ff30" />
+    </children>
+  </item>
+  <item nodeId="node-0x1580ff30">
+    <command xml:space="preserve">fill canteen</command>
+    <result xml:space="preserve">(with Canteen)
+You filled the canteen with the pond water.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="415">YES</temporary>
+    <children>
+      <child nodeId="node-0x158659e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x158659e0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first getting off Pond)
+
+Campsite
+The campsite is surrounded with greenery. You notice an uneven patch of dirt in the ground. 
+
+ Your pitched tent is south.
+
+Luigi is lounging around the campsite. He seems to be preoccupied with reading a strange book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="415">YES</temporary>
+    <children>
+      <child nodeId="node-0x15865a30" />
+    </children>
+  </item>
+  <item nodeId="node-0x15865a30">
+    <command xml:space="preserve">give canteen to luigi</command>
+    <result xml:space="preserve">Luigi: Yo thanks! Here&apos;s the book, as promised.
+
+
+ You are now carrying the Ouija Book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="415">YES</temporary>
+    <children>
+      <child nodeId="node-0x15892900" />
+    </children>
+  </item>
+  <item nodeId="node-0x15892900">
+    <command xml:space="preserve">open ouija book</command>
+    <result xml:space="preserve">It isn&apos;t something you can open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="415">YES</temporary>
+    <children>
+      <child nodeId="node-0x158cc770" />
+    </children>
+  </item>
+  <item nodeId="node-0x158cc770">
+    <command xml:space="preserve">x ouija book</command>
+    <result xml:space="preserve">An odd, worn book. The cover reads: Beware of Ouija Boards. There seem to be five pages in the book, though many of the words are smudged and indecipherable.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="414">YES</temporary>
+    <children>
+      <child nodeId="node-0x15892950" />
+    </children>
+  </item>
+  <item nodeId="node-0x15892950">
+    <command xml:space="preserve">read page one</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x158929a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x158929a0">
+    <command xml:space="preserve">read 1</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x1588ec40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1588ec40">
+    <command xml:space="preserve">read 1 in ouija board</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x1588ecb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1588ecb0">
+    <command xml:space="preserve">read page 1 in ouija board</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x158be2a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x158be2a0">
+    <command xml:space="preserve">read page 2 of ouija book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x158be310" />
+    </children>
+  </item>
+  <item nodeId="node-0x158be310">
+    <command xml:space="preserve">read 2 of ouija book</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x15814650" />
+    </children>
+  </item>
+  <item nodeId="node-0x15814650">
+    <command xml:space="preserve">read the first page of ouija board</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x158146a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x158146a0">
+    <command xml:space="preserve">read the first page of ouija book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c2545a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c2545a0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c2545f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c2545f0">
+    <command xml:space="preserve">read book</command>
+    <result xml:space="preserve">What page do you want to read in the book?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c254640" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c254640">
+    <command xml:space="preserve">read the history of ouija boards in ouija book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x158689b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x158689b0">
+    <command xml:space="preserve">read 1 page of ouija book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x15868a20" />
+    </children>
+  </item>
+  <item nodeId="node-0x15868a20">
+    <command xml:space="preserve">read page one of ouija book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x1587f0b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1587f0b0">
+    <command xml:space="preserve">read page 1 of ouija book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x1587f120" />
+    </children>
+  </item>
+  <item nodeId="node-0x1587f120">
+    <command xml:space="preserve">read the first page in book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x1585d560" />
+    </children>
+  </item>
+  <item nodeId="node-0x1585d560">
+    <command xml:space="preserve">read 1 in book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x1585d5d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1585d5d0">
+    <command xml:space="preserve">read page 1 in book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x158c2350" />
+    </children>
+  </item>
+  <item nodeId="node-0x158c2350">
+    <command xml:space="preserve">read book</command>
+    <result xml:space="preserve">What page do you want to read in the book?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x158c23c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x158c23c0">
+    <command xml:space="preserve">read ouija book</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c27aaa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c27aaa0">
+    <command xml:space="preserve">read page one in ouija book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x1583d780" />
+    </children>
+  </item>
+  <item nodeId="node-0x1583d780">
+    <command xml:space="preserve">read page one in ouija book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x1583d7d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1583d7d0">
+    <command xml:space="preserve">read page 1 in ouija book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c2a3300" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c2a3300">
+    <command xml:space="preserve">read page 1 in the ouija book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c2a3370" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c2a3370">
+    <command xml:space="preserve">read page 1 in ouija book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c2ea3e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c2ea3e0">
+    <command xml:space="preserve">read ouija book</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c2ea450" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c2ea450">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c25aea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c25aea0">
+    <command xml:space="preserve">read ouija book</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c25af10" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c25af10">
+    <command xml:space="preserve">pee in book</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c233840" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c233840">
+    <command xml:space="preserve">read book</command>
+    <result xml:space="preserve">What page do you want to read in the book?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="402">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c233890" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c233890">
+    <command xml:space="preserve">read ouija book</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="401">YES</temporary>
+  </item>
+  <item nodeId="node-0x158f87b0">
     <command xml:space="preserve">read ouija book</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="415">YES</temporary>
   </item>
-  <item nodeId="node-0xb36eb30">
+  <item nodeId="node-0x158f8820">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -2076,11 +2076,11 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="1848">YES</temporary>
     <children>
-      <child nodeId="node-0x2cc540" />
-      <child nodeId="node-0xc576bd0" />
+      <child nodeId="node-0x1584a9a0" />
+      <child nodeId="node-0x158b28b0" />
     </children>
   </item>
-  <item nodeId="node-0xc576bd0">
+  <item nodeId="node-0x158b28b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Cabin
@@ -2093,10 +2093,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1848">YES</temporary>
     <children>
-      <child nodeId="node-0x1d0ad480" />
+      <child nodeId="node-0x158b2920" />
     </children>
   </item>
-  <item nodeId="node-0x1d0ad480">
+  <item nodeId="node-0x158b2920">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Bedroom
@@ -2107,10 +2107,10 @@ Besides a bed and a dresser, the room is barren. Like the first room in the cabi
     <changed>NO</changed>
     <temporary score="1848">YES</temporary>
     <children>
-      <child nodeId="node-0x16997a00" />
+      <child nodeId="node-0x158b45c0" />
     </children>
   </item>
-  <item nodeId="node-0x16997a00">
+  <item nodeId="node-0x158b45c0">
     <command xml:space="preserve">take axe</command>
     <result xml:space="preserve">Taken.
 
@@ -2119,10 +2119,10 @@ Besides a bed and a dresser, the room is barren. Like the first room in the cabi
     <changed>NO</changed>
     <temporary score="1848">YES</temporary>
     <children>
-      <child nodeId="node-0xc55e7c0" />
+      <child nodeId="node-0x158b4630" />
     </children>
   </item>
-  <item nodeId="node-0xc55e7c0">
+  <item nodeId="node-0x158b4630">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Cabin
@@ -2135,10 +2135,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1848">YES</temporary>
     <children>
-      <child nodeId="node-0x1d7927e0" />
+      <child nodeId="node-0x1c2a5e40" />
     </children>
   </item>
-  <item nodeId="node-0x1d7927e0">
+  <item nodeId="node-0x1c2a5e40">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -2153,10 +2153,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="1848">YES</temporary>
     <children>
-      <child nodeId="node-0x1c2399a0" />
+      <child nodeId="node-0x1c2a5e90" />
     </children>
   </item>
-  <item nodeId="node-0x1c2399a0">
+  <item nodeId="node-0x1c2a5e90">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Eastern Field
@@ -2167,10 +2167,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1848">YES</temporary>
     <children>
-      <child nodeId="node-0x12643900" />
+      <child nodeId="node-0x1c2a5f00" />
     </children>
   </item>
-  <item nodeId="node-0x12643900">
+  <item nodeId="node-0x1c2a5f00">
     <command xml:space="preserve">x trees</command>
     <result xml:space="preserve">You see five identical birch trees (name: Eastern Birch Trees), all growing in a straight row. On one end of the row of trees, there is an oak tree .
 
@@ -2179,10 +2179,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1848">YES</temporary>
     <children>
-      <child nodeId="node-0x1d00f5c0" />
+      <child nodeId="node-0x1c2401c0" />
     </children>
   </item>
-  <item nodeId="node-0x1d00f5c0">
+  <item nodeId="node-0x1c2401c0">
     <command xml:space="preserve">chop down tree</command>
     <result xml:space="preserve">You chop down the oak tree with the axe, making a tree stump just like the one in the Western field. A mirror image was made. From inside the stump, you see a wooden key.
 
@@ -2191,10 +2191,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1848">YES</temporary>
     <children>
-      <child nodeId="node-0x12693690" />
+      <child nodeId="node-0x1c240230" />
     </children>
   </item>
-  <item nodeId="node-0x12693690">
+  <item nodeId="node-0x1c240230">
     <command xml:space="preserve">take wooden key</command>
     <result xml:space="preserve">After taking the wooden key, you notice that the planchette begins to move on its own. It spells &quot;You are brave... Now go...&quot;
 
@@ -2203,10 +2203,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1848">YES</temporary>
     <children>
-      <child nodeId="node-0x169642e0" />
+      <child nodeId="node-0x158f8630" />
     </children>
   </item>
-  <item nodeId="node-0x169642e0">
+  <item nodeId="node-0x158f8630">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying:
   Wooden Key
@@ -2217,10 +2217,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1848">YES</temporary>
     <children>
-      <child nodeId="node-0xc5a9370" />
+      <child nodeId="node-0x158f86a0" />
     </children>
   </item>
-  <item nodeId="node-0xc5a9370">
+  <item nodeId="node-0x158f86a0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -2235,10 +2235,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="1848">YES</temporary>
     <children>
-      <child nodeId="node-0xc522660" />
+      <child nodeId="node-0x1582c620" />
     </children>
   </item>
-  <item nodeId="node-0xc522660">
+  <item nodeId="node-0x1582c620">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Cabin
@@ -2251,10 +2251,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1848">YES</temporary>
     <children>
-      <child nodeId="node-0x1264b220" />
+      <child nodeId="node-0x1582c670" />
     </children>
   </item>
-  <item nodeId="node-0x1264b220">
+  <item nodeId="node-0x1582c670">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first unlocking the attic door with the wooden key, then opening the door)
 
@@ -2266,10 +2266,10 @@ The Attic is dust covered and moldy. In the center of the room, on the floor, is
     <changed>NO</changed>
     <temporary score="1848">YES</temporary>
     <children>
-      <child nodeId="node-0x12658650" />
+      <child nodeId="node-0x1582c6e0" />
     </children>
   </item>
-  <item nodeId="node-0x12658650">
+  <item nodeId="node-0x1582c6e0">
     <command xml:space="preserve">close ouija board</command>
     <result xml:space="preserve">You must supply a noun.
 
@@ -2278,10 +2278,10 @@ The Attic is dust covered and moldy. In the center of the room, on the floor, is
     <changed>NO</changed>
     <temporary score="1848">YES</temporary>
     <children>
-      <child nodeId="node-0x1262adb0" />
+      <child nodeId="node-0x158f2690" />
     </children>
   </item>
-  <item nodeId="node-0x1262adb0">
+  <item nodeId="node-0x158f2690">
     <command xml:space="preserve">close the ouija board</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2290,10 +2290,10 @@ The Attic is dust covered and moldy. In the center of the room, on the floor, is
     <changed>NO</changed>
     <temporary score="1848">YES</temporary>
     <children>
-      <child nodeId="node-0x126ecb70" />
+      <child nodeId="node-0x158f2700" />
     </children>
   </item>
-  <item nodeId="node-0x126ecb70">
+  <item nodeId="node-0x158f2700">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying:
   Wooden Key
@@ -2304,10 +2304,10 @@ The Attic is dust covered and moldy. In the center of the room, on the floor, is
     <changed>NO</changed>
     <temporary score="1848">YES</temporary>
     <children>
-      <child nodeId="node-0x1d7e2320" />
+      <child nodeId="node-0x158e0790" />
     </children>
   </item>
-  <item nodeId="node-0x1d7e2320">
+  <item nodeId="node-0x158e0790">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2316,10 +2316,10 @@ The Attic is dust covered and moldy. In the center of the room, on the floor, is
     <changed>NO</changed>
     <temporary score="1848">YES</temporary>
     <children>
-      <child nodeId="node-0x1d058860" />
+      <child nodeId="node-0x158e0800" />
     </children>
   </item>
-  <item nodeId="node-0x1d058860">
+  <item nodeId="node-0x158e0800">
     <command xml:space="preserve">x name card</command>
     <result xml:space="preserve">You read, &quot;xxxx xxxxxxxx, Paranormal Investigator. 
 
@@ -2337,10 +2337,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="1848">YES</temporary>
     <children>
-      <child nodeId="node-0x1d75c140" />
+      <child nodeId="node-0x1584a8e0" />
     </children>
   </item>
-  <item nodeId="node-0x1d75c140">
+  <item nodeId="node-0x1584a8e0">
     <command xml:space="preserve">read name card</command>
     <result xml:space="preserve">Please give one of the answers above.
 
@@ -2350,10 +2350,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="1848">YES</temporary>
     <children>
-      <child nodeId="node-0x169e2630" />
+      <child nodeId="node-0x1584a930" />
     </children>
   </item>
-  <item nodeId="node-0x169e2630">
+  <item nodeId="node-0x1584a930">
     <command xml:space="preserve">examine name card</command>
     <result xml:space="preserve">Please give one of the answers above.
 
@@ -2363,7 +2363,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="1847">YES</temporary>
   </item>
-  <item nodeId="node-0x2cc540">
+  <item nodeId="node-0x1584a9a0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Campsite
@@ -2376,10 +2376,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0x3d2260" />
+      <child nodeId="node-0x1582b550" />
     </children>
   </item>
-  <item nodeId="node-0x3d2260">
+  <item nodeId="node-0x1582b550">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Tent
@@ -2390,10 +2390,10 @@ Your backpack sits in the corner. The sleeping bags are unrolled on the ground.
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0x687f6e0" />
+      <child nodeId="node-0x1582b5c0" />
     </children>
   </item>
-  <item nodeId="node-0x687f6e0">
+  <item nodeId="node-0x1582b5c0">
     <command xml:space="preserve">open tent</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2402,10 +2402,10 @@ Your backpack sits in the corner. The sleeping bags are unrolled on the ground.
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb3d1510" />
+      <child nodeId="node-0x1588ba80" />
     </children>
   </item>
-  <item nodeId="node-0xb3d1510">
+  <item nodeId="node-0x1588ba80">
     <command xml:space="preserve">open backpack</command>
     <result xml:space="preserve">You open Backpack, revealing Canteen.
 
@@ -2414,10 +2414,10 @@ Your backpack sits in the corner. The sleeping bags are unrolled on the ground.
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0x22af60" />
+      <child nodeId="node-0x1588baf0" />
     </children>
   </item>
-  <item nodeId="node-0x22af60">
+  <item nodeId="node-0x1588baf0">
     <command xml:space="preserve">take canteen</command>
     <result xml:space="preserve">Taken.
 
@@ -2426,10 +2426,10 @@ Your backpack sits in the corner. The sleeping bags are unrolled on the ground.
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0x68d1790" />
+      <child nodeId="node-0x1582ce90" />
     </children>
   </item>
-  <item nodeId="node-0x68d1790">
+  <item nodeId="node-0x1582ce90">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Campsite
@@ -2442,10 +2442,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb356d40" />
+      <child nodeId="node-0x1582cee0" />
     </children>
   </item>
-  <item nodeId="node-0xb356d40">
+  <item nodeId="node-0x1582cee0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -2460,10 +2460,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb380980" />
+      <child nodeId="node-0x1582cf50" />
     </children>
   </item>
-  <item nodeId="node-0xb380980">
+  <item nodeId="node-0x1582cf50">
     <command xml:space="preserve">enter pond</command>
     <result xml:space="preserve">You step into the pond.
 
@@ -2477,10 +2477,10 @@ Here there is a lack of trees, giving a view of the stars. In the center of the 
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0x2b98f0" />
+      <child nodeId="node-0x158d7d70" />
     </children>
   </item>
-  <item nodeId="node-0x2b98f0">
+  <item nodeId="node-0x158d7d70">
     <command xml:space="preserve">take canteen</command>
     <result xml:space="preserve">You already have that.
 
@@ -2489,10 +2489,10 @@ Here there is a lack of trees, giving a view of the stars. In the center of the 
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb3a6f70" />
+      <child nodeId="node-0x158d7de0" />
     </children>
   </item>
-  <item nodeId="node-0xb3a6f70">
+  <item nodeId="node-0x158d7de0">
     <command xml:space="preserve">fill canteen </command>
     <result xml:space="preserve">(with Canteen)
 You filled the canteen with the pond water.
@@ -2502,10 +2502,10 @@ You filled the canteen with the pond water.
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0x68df960" />
+      <child nodeId="node-0x158cffb0" />
     </children>
   </item>
-  <item nodeId="node-0x68df960">
+  <item nodeId="node-0x158cffb0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first getting off Pond)
 
@@ -2519,10 +2519,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb356310" />
+      <child nodeId="node-0x158d0020" />
     </children>
   </item>
-  <item nodeId="node-0xb356310">
+  <item nodeId="node-0x158d0020">
     <command xml:space="preserve">give canteen to luigi</command>
     <result xml:space="preserve">Luigi: Yo, thanks! Here&apos;s the board, as promised. I forgot to mention that I don&apos;t know how to open the board. It&apos;s like it&apos;s magically shut!  No matter what I do, I can&apos;t seem to get it open. Maybe you have some idea of how to do it?
 
@@ -2534,10 +2534,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb3a3110" />
+      <child nodeId="node-0x15831030" />
     </children>
   </item>
-  <item nodeId="node-0xb3a3110">
+  <item nodeId="node-0x15831030">
     <command xml:space="preserve">open ouija board</command>
     <result xml:space="preserve">Luigi is right, it seems to be closed shut like magic. Maybe you can find a way to open it.
 
@@ -2546,10 +2546,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>YES</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xc478f00" />
+      <child nodeId="node-0x15831080" />
     </children>
   </item>
-  <item nodeId="node-0xc478f00">
+  <item nodeId="node-0x15831080">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -2564,10 +2564,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0x68ca450" />
+      <child nodeId="node-0x158310f0" />
     </children>
   </item>
-  <item nodeId="node-0x68ca450">
+  <item nodeId="node-0x158310f0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Eastern Field
@@ -2578,10 +2578,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0x2171e0" />
+      <child nodeId="node-0x158ed440" />
     </children>
   </item>
-  <item nodeId="node-0x2171e0">
+  <item nodeId="node-0x158ed440">
     <command xml:space="preserve">x trees</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2590,10 +2590,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb3a9860" />
+      <child nodeId="node-0x158ed4b0" />
     </children>
   </item>
-  <item nodeId="node-0xb3a9860">
+  <item nodeId="node-0x158ed4b0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -2608,10 +2608,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb37b3f0" />
+      <child nodeId="node-0x1584f1a0" />
     </children>
   </item>
-  <item nodeId="node-0xb37b3f0">
+  <item nodeId="node-0x1584f1a0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Eastern Field
@@ -2622,10 +2622,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb372bd0" />
+      <child nodeId="node-0x1584f1f0" />
     </children>
   </item>
-  <item nodeId="node-0xb372bd0">
+  <item nodeId="node-0x1584f1f0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -2640,10 +2640,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0x2cac40" />
+      <child nodeId="node-0x1584f260" />
     </children>
   </item>
-  <item nodeId="node-0x2cac40">
+  <item nodeId="node-0x1584f260">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Campsite
@@ -2656,10 +2656,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb3e0930" />
+      <child nodeId="node-0x158695a0" />
     </children>
   </item>
-  <item nodeId="node-0xb3e0930">
+  <item nodeId="node-0x158695a0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -2674,10 +2674,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xc46f470" />
+      <child nodeId="node-0x15869610" />
     </children>
   </item>
-  <item nodeId="node-0xc46f470">
+  <item nodeId="node-0x15869610">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Western Field
@@ -2688,10 +2688,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb3a3530" />
+      <child nodeId="node-0x1c268460" />
     </children>
   </item>
-  <item nodeId="node-0xb3a3530">
+  <item nodeId="node-0x1c268460">
     <command xml:space="preserve">x trees</command>
     <result xml:space="preserve">You count five identical trees, all growing in a straight row. On one end of the row of trees, there is a tree stump.
 
@@ -2700,10 +2700,10 @@ There is an interesting formation of trees on the far end of the field.
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0x22b5e0" />
+      <child nodeId="node-0x1c2684b0" />
     </children>
   </item>
-  <item nodeId="node-0x22b5e0">
+  <item nodeId="node-0x1c2684b0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -2718,10 +2718,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb374830" />
+      <child nodeId="node-0x1c268520" />
     </children>
   </item>
-  <item nodeId="node-0xb374830">
+  <item nodeId="node-0x1c268520">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Cabin
@@ -2734,10 +2734,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb35a7a0" />
+      <child nodeId="node-0x1c270a30" />
     </children>
   </item>
-  <item nodeId="node-0xb35a7a0">
+  <item nodeId="node-0x1c270a30">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Cabin
  The room has peeling walls and a rotten wooden floor. Both seem to be splattered with a dark stain. There is no furniture in the room. 
@@ -2749,10 +2749,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xc483630" />
+      <child nodeId="node-0x1c270aa0" />
     </children>
   </item>
-  <item nodeId="node-0xc483630">
+  <item nodeId="node-0x1c270aa0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening attic door)
 It seems to be locked.
@@ -2762,10 +2762,10 @@ It seems to be locked.
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0x27c950" />
+      <child nodeId="node-0x158be130" />
     </children>
   </item>
-  <item nodeId="node-0x27c950">
+  <item nodeId="node-0x158be130">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Bedroom
@@ -2776,10 +2776,10 @@ Besides a bed and a dresser, the room is barren. Like the first room in the cabi
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb3942b0" />
+      <child nodeId="node-0x158be180" />
     </children>
   </item>
-  <item nodeId="node-0xb3942b0">
+  <item nodeId="node-0x158be180">
     <command xml:space="preserve">open dresser</command>
     <result xml:space="preserve">You open the drawer to reveal an old, rusted axe. On the inside of the drawer there are dark brown stains on the wood as well as on the axe blade.
 
@@ -2788,10 +2788,10 @@ Besides a bed and a dresser, the room is barren. Like the first room in the cabi
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb3b9680" />
+      <child nodeId="node-0x158be1f0" />
     </children>
   </item>
-  <item nodeId="node-0xb3b9680">
+  <item nodeId="node-0x158be1f0">
     <command xml:space="preserve">take axe</command>
     <result xml:space="preserve">Taken.
 
@@ -2800,10 +2800,10 @@ Besides a bed and a dresser, the room is barren. Like the first room in the cabi
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb31a910" />
+      <child nodeId="node-0x15825a50" />
     </children>
   </item>
-  <item nodeId="node-0xb31a910">
+  <item nodeId="node-0x15825a50">
     <command xml:space="preserve">x axe</command>
     <result xml:space="preserve">A gigantic axe. It looks like it was used very often, as the blade is a bit rusted and chipped. However, the axe seems to have retained its menacing look.
 
@@ -2812,10 +2812,10 @@ Besides a bed and a dresser, the room is barren. Like the first room in the cabi
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb3d18c0" />
+      <child nodeId="node-0x15825ac0" />
     </children>
   </item>
-  <item nodeId="node-0xb3d18c0">
+  <item nodeId="node-0x15825ac0">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying:
   axe
@@ -2826,10 +2826,10 @@ Besides a bed and a dresser, the room is barren. Like the first room in the cabi
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xc471720" />
+      <child nodeId="node-0x1586b2e0" />
     </children>
   </item>
-  <item nodeId="node-0xc471720">
+  <item nodeId="node-0x1586b2e0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Cabin
@@ -2842,10 +2842,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb366070" />
+      <child nodeId="node-0x1586b330" />
     </children>
   </item>
-  <item nodeId="node-0xb366070">
+  <item nodeId="node-0x1586b330">
     <command xml:space="preserve">x book</command>
     <result xml:space="preserve">An odd, worn book. The cover reads:  Beware of Ouija.  There seems to be four pages in the Ouija Book, though many of the words are smudged and indecipherable. Start by reading page 1 of Ouija Book.
 
@@ -2854,10 +2854,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xc4f3750" />
+      <child nodeId="node-0x1586b3a0" />
     </children>
   </item>
-  <item nodeId="node-0xc4f3750">
+  <item nodeId="node-0x1586b3a0">
     <command xml:space="preserve">read book</command>
     <result xml:space="preserve">You need to pick up the book first.
 
@@ -2866,10 +2866,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb3a5560" />
+      <child nodeId="node-0x1c241380" />
     </children>
   </item>
-  <item nodeId="node-0xb3a5560">
+  <item nodeId="node-0x1c241380">
     <command xml:space="preserve">take book</command>
     <result xml:space="preserve">Taken.
 
@@ -2878,10 +2878,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0x2c2430" />
+      <child nodeId="node-0x1c2413f0" />
     </children>
   </item>
-  <item nodeId="node-0x2c2430">
+  <item nodeId="node-0x1c2413f0">
     <command xml:space="preserve">read ouija book</command>
     <result xml:space="preserve">An odd, worn book. The cover reads:  Beware of Ouija.  There seem to be four pages in the Ouija Book, though many of the words are smudged and indecipherable. Start by reading page 1 of Ouija Book.
 
@@ -2890,10 +2890,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb3e7810" />
+      <child nodeId="node-0x1585da50" />
     </children>
   </item>
-  <item nodeId="node-0xb3e7810">
+  <item nodeId="node-0x1585da50">
     <command xml:space="preserve">read pafe 1 of ouija book</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2902,10 +2902,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0x21e190" />
+      <child nodeId="node-0x1585daa0" />
     </children>
   </item>
-  <item nodeId="node-0x21e190">
+  <item nodeId="node-0x1585daa0">
     <command xml:space="preserve">read page 1 of ouija book</command>
     <result xml:space="preserve">You read: &quot; Entry One. xx/xx/xxxx.  I am writing this diary to record my investigations of the axe murder house, located in this very forest in xxxxxxx. I am the famous paranormal invesitgator, xxxx xxxxxxxx. I have come here with the intentions of contacting the spirit of the axe murderer, xxxxxxxx xxx, who died in these woods xx years ago. Reasons behind these murders as well as facts on the killer are unknown. To uncover these mysteries, I plan to contact the spirit of the murderer himself using my ouija board. Also known as the Witch Board, the Ouija Board is an ancient tool used to form a connection with the departed, first used by the Chinese in 1100 AD. Tomorrow night, here in the cabin, I will attempt to make spiritual contact through the board.&quot;
 
@@ -2914,10 +2914,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xc4f68e0" />
+      <child nodeId="node-0x1585db10" />
     </children>
   </item>
-  <item nodeId="node-0xc4f68e0">
+  <item nodeId="node-0x1585db10">
     <command xml:space="preserve">read next page</command>
     <result xml:space="preserve">What do you want to read that in?
 
@@ -2926,10 +2926,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb35abe0" />
+      <child nodeId="node-0x1581f420" />
     </children>
   </item>
-  <item nodeId="node-0xb35abe0">
+  <item nodeId="node-0x1581f420">
     <command xml:space="preserve">turn page of ouija book</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2938,10 +2938,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0x689ba40" />
+      <child nodeId="node-0x1581f490" />
     </children>
   </item>
-  <item nodeId="node-0x689ba40">
+  <item nodeId="node-0x1581f490">
     <command xml:space="preserve">read next page of ouija book</command>
     <result xml:space="preserve">You read: &quot; Entry Two. xx/xx/xxxx.  Night has fallen, and I am ready to open the board and begin communication with xxxxxxxx xxx. I am quite proud of my special Ouija board. It is unique in that you must knock three times on the board to open it. This insures that not just anyone can have easy access to the board, as using a ouija board is quite dangerous. After opening the board, I will place my hands on the planchette and ready myself both mentally and physically to encounter xxxxxxxx xxx&apos;s malevolent spirit. Anyone who&apos;s used a ouija board before knows that if the planchette moves to each of the four corners of the board, you have contacted an evil spirit. So, that&apos;s what I&apos;m keeping an eye out for while I&apos;m searching for the axe murderer&apos;s spirit.&quot;
 
@@ -2950,10 +2950,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0x20c290" />
+      <child nodeId="node-0x1580f350" />
     </children>
   </item>
-  <item nodeId="node-0x20c290">
+  <item nodeId="node-0x1580f350">
     <command xml:space="preserve">read next page of ouija book</command>
     <result xml:space="preserve">You read: &quot; Entry Three. xx/xx/xxxx.  I did it-- I reached the spirit of xxxxxxxx xxx. His spirit is unlike any I have come into contact with. It responds much faster, and with much greater intelligence than those of most entities. It is powerful, that much is apparent. I must remain wary of xxxxxxxx xxx&apos;s malicious intent; false flattery and lies are only to be expected from the likes of it. If anything begins to go wrong, I will simply exit the conversation by moving the planchette to the part of the board &quot;GOOD BYE&quot;, which should sever the connection between the spirit and myself. My goal is to inquire about the final resting place of xxxxxxxx xxx, find the remains, and burn them. Hopefully, by doing this, the spirit will be put to rest.&quot;
 
@@ -2962,10 +2962,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xc467e90" />
+      <child nodeId="node-0x1580f3a0" />
     </children>
   </item>
-  <item nodeId="node-0xc467e90">
+  <item nodeId="node-0x1580f3a0">
     <command xml:space="preserve">read next page of ouija book</command>
     <result xml:space="preserve">You read: &quot; Final Entry. xx/xx/xxxx.  N o ! This cannot be happening! I have lost control of the planchette, and am unable to exit through the normal means of &quot;GOODBYE&quot;. I was a fool. I was naïve. The spirit was too cunning. I am frant cally writing t is to anyo e who fi s my d ary or my ouija b ard. D o not fall vic im to the spir t!  And wha ever yo u do, do not burn t e  o ija boa d!!!!&quot;
 
@@ -2974,10 +2974,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb3e6220" />
+      <child nodeId="node-0x1580f410" />
     </children>
   </item>
-  <item nodeId="node-0xb3e6220">
+  <item nodeId="node-0x1580f410">
     <command xml:space="preserve">read next page of ouija book</command>
     <result xml:space="preserve">There are only four pages in the book.
 
@@ -2986,10 +2986,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0x22b0c0" />
+      <child nodeId="node-0x1580fbb0" />
     </children>
   </item>
-  <item nodeId="node-0x22b0c0">
+  <item nodeId="node-0x1580fbb0">
     <command xml:space="preserve">knock on ouija board</command>
     <result xml:space="preserve">You knock once on the ouija board. Nothing appears to happen.
 
@@ -2998,10 +2998,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb36ce30" />
+      <child nodeId="node-0x1580fc20" />
     </children>
   </item>
-  <item nodeId="node-0xb36ce30">
+  <item nodeId="node-0x1580fc20">
     <command xml:space="preserve">knock on ouija board 3 times</command>
     <result xml:space="preserve">You feel the Entity follow you here through the Ouija Board.
 
@@ -3010,10 +3010,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb333fe0" />
+      <child nodeId="node-0x15834c80" />
     </children>
   </item>
-  <item nodeId="node-0xb333fe0">
+  <item nodeId="node-0x15834c80">
     <command xml:space="preserve">close ouija book</command>
     <result xml:space="preserve">It isn&apos;t something you can close.
 
@@ -3022,10 +3022,10 @@ Cabin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xfb7d6c0" />
+      <child nodeId="node-0x15834cd0" />
     </children>
   </item>
-  <item nodeId="node-0xfb7d6c0">
+  <item nodeId="node-0x15834cd0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening attic door)
 It seems to be locked.
@@ -3035,10 +3035,10 @@ It seems to be locked.
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xc40a440" />
+      <child nodeId="node-0x15834d40" />
     </children>
   </item>
-  <item nodeId="node-0xc40a440">
+  <item nodeId="node-0x15834d40">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening attic door)
 It seems to be locked.
@@ -3048,10 +3048,10 @@ It seems to be locked.
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xfb810c0" />
+      <child nodeId="node-0x1583fa90" />
     </children>
   </item>
-  <item nodeId="node-0xfb810c0">
+  <item nodeId="node-0x1583fa90">
     <command xml:space="preserve">knock on youija board</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -3060,10 +3060,10 @@ It seems to be locked.
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xc402aa0" />
+      <child nodeId="node-0x1583fb00" />
     </children>
   </item>
-  <item nodeId="node-0xc402aa0">
+  <item nodeId="node-0x1583fb00">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -3078,10 +3078,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0x10ba21e0" />
+      <child nodeId="node-0x158583f0" />
     </children>
   </item>
-  <item nodeId="node-0x10ba21e0">
+  <item nodeId="node-0x158583f0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Campsite
@@ -3094,10 +3094,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0x10b854e0" />
+      <child nodeId="node-0x15858440" />
     </children>
   </item>
-  <item nodeId="node-0x10b854e0">
+  <item nodeId="node-0x15858440">
     <command xml:space="preserve">open ouija board</command>
     <result xml:space="preserve">Luigi is right, it seems to be closed shut like magic. Maybe you can find a way to open it.
 
@@ -3106,10 +3106,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>YES</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xfb38a90" />
+      <child nodeId="node-0x158584b0" />
     </children>
   </item>
-  <item nodeId="node-0xfb38a90">
+  <item nodeId="node-0x158584b0">
     <command xml:space="preserve">knock on ouija board</command>
     <result xml:space="preserve">You knock once on the ouija board. Nothing appears to happen.
 
@@ -3118,10 +3118,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xfbcbde0" />
+      <child nodeId="node-0x1585c520" />
     </children>
   </item>
-  <item nodeId="node-0xfbcbde0">
+  <item nodeId="node-0x1585c520">
     <command xml:space="preserve">knock on ouija board 3 times</command>
     <result xml:space="preserve">You feel the Entity follow you here through the Ouija Board.
 
@@ -3130,10 +3130,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xfbd6f30" />
+      <child nodeId="node-0x1585c590" />
     </children>
   </item>
-  <item nodeId="node-0xfbd6f30">
+  <item nodeId="node-0x1585c590">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3142,10 +3142,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xfbabad0" />
+      <child nodeId="node-0x1581ef80" />
     </children>
   </item>
-  <item nodeId="node-0xfbabad0">
+  <item nodeId="node-0x1581ef80">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Tent
@@ -3156,10 +3156,10 @@ Your backpack sits in the corner. The sleeping bags are unrolled on the ground.
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0x5e6cc0" />
+      <child nodeId="node-0x1581efd0" />
     </children>
   </item>
-  <item nodeId="node-0x5e6cc0">
+  <item nodeId="node-0x1581efd0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Campsite
@@ -3172,10 +3172,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb3483d0" />
+      <child nodeId="node-0x1581f040" />
     </children>
   </item>
-  <item nodeId="node-0xb3483d0">
+  <item nodeId="node-0x1581f040">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying:
   ouija book
@@ -3187,10 +3187,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xfb68f40" />
+      <child nodeId="node-0x1587d560" />
     </children>
   </item>
-  <item nodeId="node-0xfb68f40">
+  <item nodeId="node-0x1587d560">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Tent
@@ -3201,10 +3201,10 @@ Your backpack sits in the corner. The sleeping bags are unrolled on the ground.
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xc4ac020" />
+      <child nodeId="node-0x1587d5d0" />
     </children>
   </item>
-  <item nodeId="node-0xc4ac020">
+  <item nodeId="node-0x1587d5d0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3213,10 +3213,10 @@ Your backpack sits in the corner. The sleeping bags are unrolled on the ground.
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xfb93350" />
+      <child nodeId="node-0x158120d0" />
     </children>
   </item>
-  <item nodeId="node-0xfb93350">
+  <item nodeId="node-0x158120d0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Campsite
@@ -3229,10 +3229,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0x169a0fd0" />
+      <child nodeId="node-0x15812120" />
     </children>
   </item>
-  <item nodeId="node-0x169a0fd0">
+  <item nodeId="node-0x15812120">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -3247,10 +3247,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xfbc0fa0" />
+      <child nodeId="node-0x15812190" />
     </children>
   </item>
-  <item nodeId="node-0xfbc0fa0">
+  <item nodeId="node-0x15812190">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Campsite
@@ -3263,10 +3263,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0x16920de0" />
+      <child nodeId="node-0x158395d0" />
     </children>
   </item>
-  <item nodeId="node-0x16920de0">
+  <item nodeId="node-0x158395d0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Tent
@@ -3277,10 +3277,10 @@ Your backpack sits in the corner. The sleeping bags are unrolled on the ground.
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0xb3cbd40" />
+      <child nodeId="node-0x15839640" />
     </children>
   </item>
-  <item nodeId="node-0xb3cbd40">
+  <item nodeId="node-0x15839640">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3289,10 +3289,10 @@ Your backpack sits in the corner. The sleeping bags are unrolled on the ground.
     <changed>NO</changed>
     <temporary score="1302">YES</temporary>
     <children>
-      <child nodeId="node-0x169e7720" />
+      <child nodeId="node-0x1588b3d0" />
     </children>
   </item>
-  <item nodeId="node-0x169e7720">
+  <item nodeId="node-0x1588b3d0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Campsite
@@ -3305,10 +3305,10 @@ The campsite is surrounded with greenery. In the center of the campsite a roarin
     <changed>NO</changed>
     <temporary score="1301">YES</temporary>
     <children>
-      <child nodeId="node-0xb353550" />
+      <child nodeId="node-0x1588b420" />
     </children>
   </item>
-  <item nodeId="node-0xb353550">
+  <item nodeId="node-0x1588b420">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -3323,10 +3323,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="1233">YES</temporary>
     <children>
-      <child nodeId="node-0xb3bc030" />
+      <child nodeId="node-0x1588b490" />
     </children>
   </item>
-  <item nodeId="node-0xb3bc030">
+  <item nodeId="node-0x1588b490">
     <command xml:space="preserve">knock 3 times on ouija board</command>
     <result xml:space="preserve">The Ouija Board opens with a click.
 
@@ -3335,7 +3335,7 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="1232">YES</temporary>
   </item>
-  <item nodeId="node-0x689d260">
+  <item nodeId="node-0x158abbb0">
     <command xml:space="preserve">ask about cabin</command>
     <result xml:space="preserve">Luigi: Some creepy old cabin. I wonder who used to live there. There has to be some way to unlock the door.
 
@@ -3344,10 +3344,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>NO</changed>
     <temporary score="160">YES</temporary>
     <children>
-      <child nodeId="node-0x689d2d0" />
+      <child nodeId="node-0x158abc20" />
     </children>
   </item>
-  <item nodeId="node-0x689d2d0">
+  <item nodeId="node-0x158abc20">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -3362,10 +3362,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>YES</changed>
     <temporary score="160">YES</temporary>
     <children>
-      <child nodeId="node-0x689d340" />
+      <child nodeId="node-0x158abc90" />
     </children>
   </item>
-  <item nodeId="node-0x689d340">
+  <item nodeId="node-0x158abc90">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Campsite
@@ -3380,10 +3380,10 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>YES</changed>
     <temporary score="160">YES</temporary>
     <children>
-      <child nodeId="node-0x689d3b0" />
+      <child nodeId="node-0x1582d5c0" />
     </children>
   </item>
-  <item nodeId="node-0x689d3b0">
+  <item nodeId="node-0x1582d5c0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Tent
@@ -3394,10 +3394,10 @@ Your backpack sits in the corner. The sleeping bags are unrolled on the ground.
     <changed>YES</changed>
     <temporary score="160">YES</temporary>
     <children>
-      <child nodeId="node-0x689d420" />
+      <child nodeId="node-0x1582d630" />
     </children>
   </item>
-  <item nodeId="node-0x689d420">
+  <item nodeId="node-0x1582d630">
     <command xml:space="preserve">open backpack</command>
     <result xml:space="preserve">You open Backpack, revealing Canteen.
 
@@ -3406,10 +3406,10 @@ Your backpack sits in the corner. The sleeping bags are unrolled on the ground.
     <changed>YES</changed>
     <temporary score="160">YES</temporary>
     <children>
-      <child nodeId="node-0x689d490" />
+      <child nodeId="node-0x15872af0" />
     </children>
   </item>
-  <item nodeId="node-0x689d490">
+  <item nodeId="node-0x15872af0">
     <command xml:space="preserve">take canteen</command>
     <result xml:space="preserve">Taken.
 
@@ -3418,10 +3418,10 @@ Your backpack sits in the corner. The sleeping bags are unrolled on the ground.
     <changed>YES</changed>
     <temporary score="160">YES</temporary>
     <children>
-      <child nodeId="node-0x689d500" />
+      <child nodeId="node-0x15872b40" />
     </children>
   </item>
-  <item nodeId="node-0x689d500">
+  <item nodeId="node-0x15872b40">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Campsite
@@ -3436,10 +3436,10 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>YES</changed>
     <temporary score="160">YES</temporary>
     <children>
-      <child nodeId="node-0x689d570" />
+      <child nodeId="node-0x15872bb0" />
     </children>
   </item>
-  <item nodeId="node-0x689d570">
+  <item nodeId="node-0x15872bb0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -3454,10 +3454,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>YES</changed>
     <temporary score="160">YES</temporary>
     <children>
-      <child nodeId="node-0x689d5e0" />
+      <child nodeId="node-0x158cc8b0" />
     </children>
   </item>
-  <item nodeId="node-0x689d5e0">
+  <item nodeId="node-0x158cc8b0">
     <command xml:space="preserve">enter pond</command>
     <result xml:space="preserve">You get onto Pond.
 
@@ -3466,10 +3466,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>YES</changed>
     <temporary score="160">YES</temporary>
     <children>
-      <child nodeId="node-0x689d650" />
+      <child nodeId="node-0x158cc920" />
     </children>
   </item>
-  <item nodeId="node-0x689d650">
+  <item nodeId="node-0x158cc920">
     <command xml:space="preserve">exit pond</command>
     <result xml:space="preserve">I only understood you as far as wanting to exit.
 
@@ -3478,10 +3478,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>YES</changed>
     <temporary score="160">YES</temporary>
     <children>
-      <child nodeId="node-0x689d6c0" />
+      <child nodeId="node-0x158cc990" />
     </children>
   </item>
-  <item nodeId="node-0x689d6c0">
+  <item nodeId="node-0x158cc990">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first getting off Pond)
 
@@ -3497,10 +3497,10 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>YES</changed>
     <temporary score="160">YES</temporary>
     <children>
-      <child nodeId="node-0x689d730" />
+      <child nodeId="node-0x15815c20" />
     </children>
   </item>
-  <item nodeId="node-0x689d730">
+  <item nodeId="node-0x15815c20">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -3515,10 +3515,10 @@ The perfect-circle pond is serene, and so clear that you can see the bottom. The
     <changed>YES</changed>
     <temporary score="160">YES</temporary>
     <children>
-      <child nodeId="node-0x689d7a0" />
+      <child nodeId="node-0x15815c90" />
     </children>
   </item>
-  <item nodeId="node-0x689d7a0">
+  <item nodeId="node-0x15815c90">
     <command xml:space="preserve">fill canteen</command>
     <result xml:space="preserve">(with Canteen)
 You have to be in water to fill it.
@@ -3528,10 +3528,10 @@ You have to be in water to fill it.
     <changed>YES</changed>
     <temporary score="160">YES</temporary>
     <children>
-      <child nodeId="node-0x689d810" />
+      <child nodeId="node-0x15819520" />
     </children>
   </item>
-  <item nodeId="node-0x689d810">
+  <item nodeId="node-0x15819520">
     <command xml:space="preserve">enter pond</command>
     <result xml:space="preserve">You get onto Pond.
 
@@ -3540,10 +3540,10 @@ You have to be in water to fill it.
     <changed>YES</changed>
     <temporary score="160">YES</temporary>
     <children>
-      <child nodeId="node-0x689d880" />
+      <child nodeId="node-0x15819570" />
     </children>
   </item>
-  <item nodeId="node-0x689d880">
+  <item nodeId="node-0x15819570">
     <command xml:space="preserve">fill canteen</command>
     <result xml:space="preserve">(with Canteen)
 You filled the canteen with the pond water.
@@ -3553,10 +3553,10 @@ You filled the canteen with the pond water.
     <changed>YES</changed>
     <temporary score="160">YES</temporary>
     <children>
-      <child nodeId="node-0x689d8f0" />
+      <child nodeId="node-0x158195e0" />
     </children>
   </item>
-  <item nodeId="node-0x689d8f0">
+  <item nodeId="node-0x158195e0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first getting off Pond)
 
@@ -3572,10 +3572,10 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>YES</changed>
     <temporary score="160">YES</temporary>
     <children>
-      <child nodeId="node-0x689d960" />
+      <child nodeId="node-0x158d2710" />
     </children>
   </item>
-  <item nodeId="node-0x689d960">
+  <item nodeId="node-0x158d2710">
     <command xml:space="preserve">give water </command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3584,10 +3584,10 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>YES</changed>
     <temporary score="160">YES</temporary>
     <children>
-      <child nodeId="node-0x689d9d0" />
+      <child nodeId="node-0x158d2780" />
     </children>
   </item>
-  <item nodeId="node-0x689d9d0">
+  <item nodeId="node-0x158d2780">
     <command xml:space="preserve">give water to luigi</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3596,10 +3596,10 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>YES</changed>
     <temporary score="160">YES</temporary>
     <children>
-      <child nodeId="node-0x689da40" />
+      <child nodeId="node-0x158d27f0" />
     </children>
   </item>
-  <item nodeId="node-0x689da40">
+  <item nodeId="node-0x158d27f0">
     <command xml:space="preserve">give canteen to luigi</command>
     <result xml:space="preserve">Luigi doesn&apos;t seem interested.
 
@@ -3608,7 +3608,7 @@ Luigi is lounging around the campsite. He seems to be preoccupied with reading a
     <changed>YES</changed>
     <temporary score="159">YES</temporary>
   </item>
-  <item nodeId="node-0x689dab0">
+  <item nodeId="node-0x158c4330">
     <command xml:space="preserve">ask</command>
     <result xml:space="preserve">(Luigi for Luigi)
 (Luigi first taking Luigi)
@@ -3619,10 +3619,10 @@ Luigi has better things to do.
     <changed>YES</changed>
     <temporary score="38">YES</temporary>
     <children>
-      <child nodeId="node-0x689db20" />
+      <child nodeId="node-0x158c43a0" />
     </children>
   </item>
-  <item nodeId="node-0x689db20">
+  <item nodeId="node-0x158c43a0">
     <command xml:space="preserve">ask about poo</command>
     <result xml:space="preserve">You can ask Luigi about &quot;Ouija Boards&quot;, &quot;Patch of Dirt&quot;,  &quot;Cabin&quot;.
 
@@ -3631,7 +3631,7 @@ Luigi has better things to do.
     <changed>YES</changed>
     <temporary score="38">YES</temporary>
   </item>
-  <item nodeId="node-0x689db90">
+  <item nodeId="node-0x158d67f0">
     <command xml:space="preserve">ask about book</command>
     <result xml:space="preserve">You play a nice scale. Nothing else happens, though.
 
@@ -3640,10 +3640,10 @@ Luigi has better things to do.
     <changed>YES</changed>
     <temporary score="42">YES</temporary>
     <children>
-      <child nodeId="node-0x689dc00" />
+      <child nodeId="node-0x158d6840" />
     </children>
   </item>
-  <item nodeId="node-0x689dc00">
+  <item nodeId="node-0x158d6840">
     <command xml:space="preserve">ask about poop</command>
     <result xml:space="preserve">Luigi will only answer certain questions. You can ask Luigi about &quot;Ouija Boards&quot;, &quot;Patch of Dirt&quot;,  &quot;book&quot;, &quot;tent&quot;, &quot;campsite&quot;, &quot;himself&quot;
 &gt;</result>
@@ -3651,10 +3651,10 @@ Luigi has better things to do.
     <changed>YES</changed>
     <temporary score="42">YES</temporary>
     <children>
-      <child nodeId="node-0x689dc70" />
+      <child nodeId="node-0x158d68b0" />
     </children>
   </item>
-  <item nodeId="node-0x689dc70">
+  <item nodeId="node-0x158d68b0">
     <command xml:space="preserve">ask about yourself</command>
     <result xml:space="preserve">I can&apos;t believe you had the guts to come camping out here!
 
@@ -3663,7 +3663,7 @@ Luigi has better things to do.
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
   </item>
-  <item nodeId="node-0x689dce0">
+  <item nodeId="node-0x1583d270">
     <command xml:space="preserve">ask about poo</command>
     <result xml:space="preserve">Luigi will only answer certain questions. You can ask Luigi about &quot;Ouija Boards&quot;, &quot;Patch of Dirt&quot;, 
 &gt;</result>
