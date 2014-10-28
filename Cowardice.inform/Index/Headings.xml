@@ -3,9 +3,9 @@
 <plist version="1.0"><dict>
     <key>Application Version</key><string>6L38</string>
     <key>0</key><dict>
-        <key>Filename</key><string>/Users/lfulbright17/Desktop/OuijaBoredom/Cowardice.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/lfulbright17/Desktop/Cowardice/Cowardice.inform/Source/story.ni</string>
         <key>Line</key><integer>1</integer>
-        <key>Title</key><string>"Cowardice" by Lee-Won Fulbright</string>
+        <key>Title</key><string>"Cowardice" by Lee-Won Fulbright The release number is 1</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
